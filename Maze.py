@@ -1,4 +1,4 @@
-import GV
+import Viewer
 EMPTY = 0
 WALL = 1
 START = 2
@@ -22,7 +22,7 @@ if __name__ == "__main__":
         [ WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL, WALL],
     ]
                     
-    GV.view(grid)
+    Viewer.view(grid)
 
 
 
@@ -87,7 +87,7 @@ if __name__ == "__main__":
 
     if not solved:
         print("MESSAGE 5") # Did not reach the end.
-    GV.view(grid)
+    Viewer.view(grid)
 
 
    
