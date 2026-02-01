@@ -89,12 +89,23 @@ git log --oneline
 
 ---
 
-## 🧹 Ignore Python Cache Files
+## 🧹 Ignore Python Cache Files 
 
-Create `.gitignore`:
+in your project folder Create `.gitignore`  to tell Git to ignore these files::
 ```
-__pycache__/
-*.pyc
+_
+			# Python cache
+			__pycache__/
+			*.pyc
+			*.pyo
+
+			# Virtual environments
+			venv/
+			.env/
+
+			# IDE settings
+			.vscode/
+    .idea/
 ```
 
 Then:
