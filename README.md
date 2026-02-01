@@ -7,20 +7,24 @@
 
 ### ✅ Basic Git Setup
 
-# Install Git and verify git --version
+# Install Git and verify
+ git --version
 # Configure your identity
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 
-# View current settings : git config -l
+# View current settings :
+ git config -l
 
 ```
 
 ### ✅ Create and Connect Local Repo to GitHub
 
 ```bash
-#create  folder :mkdir Project
-# Go to your project folder: cd  project
+#create  folder :
+mkdir Project
+# Go to your project folder:
+ cd  project
 
 # Initialize Git:git init
 #Check that .git exists:ls -a
