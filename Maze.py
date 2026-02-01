@@ -66,17 +66,7 @@ if __name__ == "__main__":
             print("MESSAGE 2 → You fall into the chasm of doom") # Out of bounds.
             
         else:
-<<<<<<< HEAD
-            cell= grid [currentRow][currentCol]
-            if cell == EMPTY:
-                grid[currentRow][currentCol] = VISITED
-                
-            if cell == WALL:
-                done = True
-                print("MESSAGE 3:You stumble blindly into a solid concrete wall.") # Hit wall.
 
-            if CELL == END:
-=======
             if grid[row][col] == EMPTY:
                 grid[row][col] = VISITED
                 
@@ -98,6 +88,6 @@ if __name__ == "__main__":
 
 
  
-if not solved:
-    print("MESSAGE 5: You have failed to escape...")
-    Viewer.view(grid)
+    if not solved:
+        print("MESSAGE 5: You have failed to escape...")
+        Viewer.view(grid)
