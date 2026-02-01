@@ -1,13 +1,3 @@
- to make it visually attractive and easy to follow.
-
----
-
-
-
-
-✅
-
-
 ---
 
 ## 🔧 1. Install Git
@@ -60,18 +50,6 @@ git status
 git remote add origin https://github.com/dhrubojoutidas/git_workshop4_prac.git
 git remote -v
 ```
-```markdown
-# 🧠 Git Setup & Workflow Notes — MazeProject
-
----
-	
-	
-	10. # Add remote GitHub repo
-	git remote add origin https://github.com/dhrubojoutidas/git_workshop4_prac.git
-	11. Verify remote :git remote -v
-	12. Rename branch if needed: git branch -M main
-Push to GitHub and set upstream:git push -u origin main
-
 ---
 
 ## 🔀 6. Rename Branch & Push to GitHub
@@ -81,6 +59,7 @@ git push -u origin main
 ```
 
 ---
+ 🧠 ✅
 
 ## 👥 Two-Developer Simulation
 
