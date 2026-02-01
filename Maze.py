@@ -1,4 +1,5 @@
 import Viewer
+
 EMPTY = 0
 WALL = 1
 START = 2
