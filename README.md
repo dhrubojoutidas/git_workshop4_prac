@@ -2,9 +2,11 @@
 
 ## 📘 Git Workshop Notes — Developer Workflow & Setup
 
+```bash
+
 ### ✅ Basic Git Setup
 
-```bash
+
 
 # Install Git and verify
 git --version
