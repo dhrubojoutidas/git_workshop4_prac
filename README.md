@@ -1,4 +1,4 @@
----
+<img width="739" height="158" alt="image" src="https://github.com/user-attachments/assets/c7664485-c049-4fb1-aefa-97bf0e6b2dd7" />---
 
 ## 🔧 1. Install Git
 - 📥 Download Git from [git-scm.com](https://git-scm.com)
@@ -205,7 +205,13 @@ git commit -m "Renamed GridViewer module to Viewer"
 - `winpty python Maze.py` to run on git bash &` python Maze.py` for VSCODE
 - git `add Viewer.py Maze.py` / `git add -A GridViewer.py`
 
-
-
 ---
+
+## verifications 
+ - after you finished editing Maze.py and creating GridViewer.py, but before git add,` git diff --color `
+ - ` git log --branches --graph`
+ - `git log --oneline --graph --all`
+ - `p git log  --oneline`
+ - `p git log `
+
 
