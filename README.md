@@ -29,7 +29,6 @@ cd  project
 
 # Initialize Git:
 git init
-
 #Check that .git exists:
 ls -a
 
@@ -112,6 +111,24 @@ git commit -m "Added .gitignore to ignore Python cache files"
 ```
 
 ---
+
+###🧭  Now modify Maze.py by splitting it into two files
+
+	(1)Using NANO editor   create  new file like
+	Write nano GD.py 
+	 
+	Then  Open nanao editor to edit then close ctrl + s and exit (ctl+x)
+	
+	To quit Vim: press Esc, then type :wq and hit Enter.
+	To quit Nano: press Ctrl + X, then Y, then Enter.
+	
+	
+	(2) ediit maze.py file
+	Git status for both file
+	git add Maze.py GridViewer.py
+	git commit -m "modify Maze.py by splitting it into two separate files."
+	Git status
+
 
 ### ⚙️ Line Ending Settings (Windows vs Linux)
 
