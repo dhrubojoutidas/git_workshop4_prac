@@ -53,7 +53,7 @@ if __name__ == "__main__":
         elif direction == SOUTH:
             row += 1
                 
-        elif direction == WEST:
+        elif direction == WEST: 
             col -= 1
         
         else:
