@@ -1,3 +1,57 @@
+Got it, Dhruv — here’s a clean, note-style `README.md` file based on the Git setup guide you shared. It’s written in Markdown and ready to be pasted into your GitHub repo.
+
+---
+
+```markdown
+# 🧠 Git Setup Notes — MazeProject
+
+## 🔍 1. Install Git
+- Download Git from [git-scm.com](https://git-scm.com)
+- Install it on your computer
+- Verify installation:
+  ```bash
+  git --version
+  ```
+
+## 🔍 2. Configure Git
+Set your identity for commits:
+```bash
+git config --global user.name "dhrubojoitidas"
+git config --global user.email "dhrubotroyee20@gmail.com"
+```
+Verify:
+```bash
+git config --global --list
+```
+
+## 📁 3. Create and Initialize Project Folder
+```bash
+mkdir MazeProject
+cd MazeProject
+git init
+ls -a  # should show .git folder
+```
+
+## 🐍 4. Add Maze.py and Make First Commit
+Copy `Maze.py` into this folder, then:
+```bash
+git status
+git add Maze.py
+git status
+git commit -m "Initial commit."
+git status
+```
+
+## 💡 What `git add` Does
+- Stages your changes (prepares them for commit)
+- Does **not** save permanently — that’s what `git commit` does
+
+```
+
+---
+
+Let me know if you want to add more notes about branching, pushing to GitHub, or working with multiple developers — I’ll format those too.
+
 
 ✅  Use git help
 	Ø To see all available commands: git help
