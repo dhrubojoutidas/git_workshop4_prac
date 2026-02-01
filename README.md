@@ -1,4 +1,4 @@
-Absolutely Dhruv — here’s a clean, well-formatted **README.md** version of the Git tutorial notes you’ve been working with. You can copy this into your GitHub repo’s `README.md` file to keep everything organized and easy to review.
+
 
 ---
 
@@ -7,15 +7,13 @@ Absolutely Dhruv — here’s a clean, well-formatted **README.md** version of t
 ### ✅ Basic Git Setup
 
 ```bash
-# Install Git and verify
-git --version
+# Install Git and verify git --version
 
 # Configure your identity
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 
-# View current settings
-git config -l
+# View current settings git config -l
 ```
 
 ---
@@ -23,8 +21,7 @@ git config -l
 ### ✅ Create and Connect Local Repo to GitHub
 
 ```bash
-# Go to your project folder
-cd ~/project
+# Go to your project folder  cd ~/project
 
 # Initialize Git
 git init
