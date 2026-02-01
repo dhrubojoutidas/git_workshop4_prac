@@ -57,7 +57,8 @@ git push -u origin main
 
 ---
 
-###🧭  Now modify Maze.py by splitting it into two files
+### 🧭 Now modify Maze.py by splitting it into two files
+
 ```bash
 
 	(1)Using NANO editor create 	Write nano GD.py 	 
