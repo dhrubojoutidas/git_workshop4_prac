@@ -64,9 +64,9 @@ git push -u origin main
 
 ### 🧑‍💻 Developer 1: Clone remote repo
 ```bash
-Open Git Bash and go to a clean folder: `cd `
-git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2
-go into the clone folder :cd myproject2
+- Open Git Bash and go to a clean folder: `cd `
+- git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2
+- go into the clone folder :cd myproject2
 What this does
 			i. Creates a new directory called myproject2
 			ii. Copies the full repository history
@@ -74,11 +74,11 @@ What this does
 📌 Note: A bare repository cannot be worked on directly — cloning creates a working copy.	
 ✅ This creates a working copy called myproject2 and sets origin to your GitHub repo.
 
-`git checkout -b change_symbols`
-# Edit Maze.py
-`git add .`
-git commit -m "Change symbols in text"
-git push -u origin change_symbols
+- `git checkout -b change_symbols`
+- Edit Maze.py
+- `git add .`
+- git commit -m "Change symbols in text"
+- `git push -u origin change_symbols`
 ```
 
 ---
