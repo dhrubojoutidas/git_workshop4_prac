@@ -53,9 +53,25 @@ git remote -v
 
 ## 🔀 6. Rename Branch & Push to GitHub
 ```bash
-git branch -M main
-git push -u origin main
+- git branch -M main means `-m → rename safely` & `-M → rename aggressively (force)
+- git push -u origin main  | Push + set upstream tracking |First time pushing a branch
+- git push  origin main | Push only |After upstream is already set
+
+
 ```
+
+-  Merge to master and push back to origin :
+-  `git checkout master `   # swicth to master
+-  `git merge change_symbols ` # merge another branch
+-  `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
+
+Important Concept: Fetch vs Merge 
+	What git fetch does
+		○ Downloads updates from the remote
+		○ Does not modify your current branch
+		
+	What git merge does:Integrates changes into your current branch
+	git pull= fetch + merge
 
 ---
 
@@ -101,16 +117,6 @@ What this does
 - ` git log --oneline`
 ✅ Now Developer 2 sees the changes made by Developer 1.
 ```
-
-
-🧑‍💻 ` git branch -M main  `  means `-m → rename safely` & `-M → rename aggressively (force)`
--  Merge to master and push back to origin :
--  `git checkout master `   # swicth to master
--  `git merge change_symbols ` # merge another branch
--  `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
-
-
-<img width="714" height="291" alt="image" src="https://github.com/user-attachments/assets/21736c5e-18c0-4bb0-8426-a6fa09b285df" />
 
 
 ---
