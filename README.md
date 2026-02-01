@@ -1,5 +1,3 @@
-
-
 ---
 
 ## 📘 Git Workshop Notes — Developer Workflow & Setup
@@ -8,11 +6,9 @@
 
 ```bash
 # Install Git and verify git --version
-
 # Configure your identity
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
-
 # View current settings git config -l
 ```
 
