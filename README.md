@@ -135,8 +135,7 @@ git config --global core.autocrlf input
 ```bash
  git config --global core.autocrlf false
 ```
-	
-### 🔧To stop that warning because it tells Git to automatically handle line endings for Windows:
+ ### 🔧To stop that warning because it tells Git to automatically handle line endings for Windows:
 -  When you add files: Git converts CRLF → LF internally.
 -  When you checkout files: Git converts LF → CRLF for Windows
 
