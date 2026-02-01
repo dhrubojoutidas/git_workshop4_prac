@@ -24,17 +24,16 @@
 Push to GitHub and set upstream:git push -u origin main
 
 
-
-
   ```
 
+✅
 
 
+---
 
 ## 🔧 1. Install Git
 - 📥 Download Git from [git-scm.com](https://git-scm.com)
-- 💻 Install it on your computer
-- ✅ Verify installation: git --version
+- 💻 Install &  Verify installation: git --version
 
 ---
 
