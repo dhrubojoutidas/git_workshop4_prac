@@ -4,17 +4,18 @@
 
 ``` bash
 
-
 ### ✅ Basic Git Setup
 
 # Install Git and verify
- git --version
+git --version
+
 # Configure your identity
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 
+
 # View current settings :
- git config -l
+git config -l
 
 ```
 
@@ -23,11 +24,15 @@ git config --global user.email "your@email.com"
 ```bash
 #create  folder :
 mkdir Project
-# Go to your project folder:
- cd  project
 
-# Initialize Git:git init
-#Check that .git exists:ls -a
+# Go to your project folder:
+cd  project
+
+# Initialize Git:
+git init
+
+#Check that .git exists:
+ls -a
 
 # Add Maze.py and make your first commit
 # Add all files
