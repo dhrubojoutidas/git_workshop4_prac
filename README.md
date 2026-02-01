@@ -242,6 +242,7 @@ git commit -m "Renamed GridViewer module to Viewer"
 
 ## verifications 
  - after you finished editing Maze.py and creating GridViewer.py, but before git add,` git diff --color `
+ - ` git log --oneline --graph --decorate`
  - `git log --branches --graph`
  - `git log --oneline --graph --all`
  - `git log  --oneline`
