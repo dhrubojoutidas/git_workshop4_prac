@@ -117,12 +117,33 @@ git commit -m "Added .gitignore to ignore Python cache files"
 ---
 
 ## ⚙️ Line Ending Settings (Windows vs Linux)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e097fecb-dcc2-40df-af66-32dd19f12628" />
 
-### 🔧 Set autocrlf for Windows:
+
+
+##  git config --global core.autocrlf true → Windows-friendly (convert LF to CRLF on checkout).
+##  git config --global core.autocrlf input → Linux/macOS-friendly (keep LF, no conversion on checkout).
+##  git config --global core.autocrlf false → No conversion at all (you manage line endings manually)
+
+
+	
+
+
+### 🔧 Set autocrlf for Windows: It should return true.	will stop that warning because it tells Git to automatically handle line endings for Windows:
+-  When you add files: Git converts CRLF → LF internally.
+-  When you checkout files: Git converts LF → CRLF for Windows
+
 ```bash
 git config --global core.autocrlf true
 ```
 
+Then:
+```bash
+Continue your workflow:
+		○ Add files: git add Maze.py
+		○ Commit: git commit -m "Initial commit"
+```
+---
 ### 📄 Optional: Add `.gitattributes`
 ```
 * text=auto
