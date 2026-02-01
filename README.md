@@ -153,7 +153,7 @@ Continue your workflow:
 - `git rm --cached -r .` removes all files from the staging area (index) without deleting them from your working directory.
 - `git reset --hard` resets your working directory and index to the last commit — useful if you want a clean slate.
 
-### ✅ if you want to fix **specific files only/If files were added before setting autocrlfto fix that **:
+### ✅ if you want to fix specific files only/If files were added before setting autocrlfto fix that :
 - `git rm --cached <filename>` unstages the specific file.
 - `git reset HEAD <filename>` resets the file to the last committed state.
 
