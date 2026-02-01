@@ -180,7 +180,10 @@ Create and edit new file:
 ```bash
 nano Viewer.py
 ```
-Exit Nano: `Ctrl + X`, then `Y`, then `Enter`
+Exit Nano: `Ctrl + X`, then `Y`, then `Enter` for  open `'ctr;+s`
+
+To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
+
 
 Rename file:
 ```bash
