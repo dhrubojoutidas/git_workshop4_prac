@@ -4,15 +4,15 @@
 
 ### ✅ Basic Git Setup
 
-```bash
 # Install Git and verify
- git --version
+git --version
+
 # Configure your identity
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 
-# View current settings git config -l
-```
+# View current settings
+git config -l
 
 ---
 
