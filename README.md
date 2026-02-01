@@ -1,4 +1,4 @@
-Absolutely Dhruv! Here's your full Git setup and workflow guide formatted as a colorful, icon-rich `README.md` file — perfect for GitHub. I’ve kept **all your original info**, added **medium-sized headers**, and used **emojis** and **clear formatting** to make it visually attractive and easy to follow.
+ to make it visually attractive and easy to follow.
 
 ---
 
@@ -6,6 +6,23 @@ Absolutely Dhruv! Here's your full Git setup and workflow guide formatted as a c
 # 🧠 Git Setup & Workflow Notes — MazeProject
 
 ---
+	1. Install Git and verify:git --version
+	2.  Configure your identity
+	git config --global user.name "Your Name"
+	git config --global user.email "your@email.com"
+	3.  View current settings: git config -l
+	4. Mkdir project
+	5. Go to your project folder  cd   project
+	6. Initialize Git git init
+	7. Add all files :git add .   Git sttaus 
+	8. Commit changes :git commit -m "Initial commit"
+	9. Git sttaus 
+	10. # Add remote GitHub repo
+	git remote add origin https://github.com/dhrubojoutidas/git_workshop4_prac.git
+	11. Verify remote :git remote -v
+	12. Rename branch if needed: git branch -M main
+Push to GitHub and set upstream:git push -u origin main
+
 
 ## 🔧 1. Install Git
 - 📥 Download Git from [git-scm.com](https://git-scm.com)
