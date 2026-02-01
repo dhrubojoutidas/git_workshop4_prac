@@ -66,10 +66,6 @@ git push -u origin main
 <img width="1079" height="701" alt="image" src="https://github.com/user-attachments/assets/2ea00844-1b96-4025-83a3-dad8c884f1ec" />
  
 
-
-<img width="742" height="518" alt="image" src="https://github.com/user-attachments/assets/d4aaa6d7-2985-43e2-8c2e-28154695c4d5" />
-
-
 ## 👥 Two-Developer Simulation
 
 ### 🧑‍💻 Developer 1: Clone remote repo, cretae B , commit and push
