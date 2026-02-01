@@ -103,12 +103,14 @@ What this does
 ```
 
 
-🧑‍💻
-- ` git branch -M main  `  means `-m → rename safely` & `-M → rename aggressively (force)`
+🧑‍💻 ` git branch -M main  `  means `-m → rename safely` & `-M → rename aggressively (force)`
 -  Merge to master and push back to origin :
 -  `git checkout master `   # swicth to master
 -  `git merge change_symbols ` # merge another branch
 -  `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
+
+
+<img width="714" height="291" alt="image" src="https://github.com/user-attachments/assets/21736c5e-18c0-4bb0-8426-a6fa09b285df" />
 
 
 ---
