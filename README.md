@@ -8,8 +8,11 @@
 ## 🔍 1. Install Git
 - Download Git from [git-scm.com](https://git-scm.com)
 - Install it on your computer
-- Verify installation:
-  ```bash
+
+-
+```
+Verify:
+```bash
 
   git --version
   ```
@@ -17,7 +20,8 @@
 ```markdown
 # 🔍 2. Configure Git
 Set your identity for commits:
-
+```
+Verify:
 ```bash
 
 git config --global user.name ""
