@@ -1,4 +1,4 @@
-Got it, Dhruv — here’s a clean, note-style `README.md` file based on the Git setup guide you shared. It’s written in Markdown and ready to be pasted into your GitHub repo.
+
 
 ---
 
@@ -15,12 +15,14 @@ Got it, Dhruv — here’s a clean, note-style `README.md` file based on the Git
 
 ## 🔍 2. Configure Git
 Set your identity for commits:
+
 ```bash
-git config --global user.name "dhrubojoitidas"
-git config --global user.email "dhrubotroyee20@gmail.com"
+git config --global user.name ""
+git config --global user.email ""
 ```
 Verify:
 ```bash
+
 git config --global --list
 ```
 
