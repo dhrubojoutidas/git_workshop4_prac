@@ -1,4 +1,4 @@
----
+
 
 ## 📘 Git Workshop Notes — Developer Workflow & Setup
 
@@ -18,7 +18,6 @@ git config --global user.email "your@email.com"
 git config -l
 
 ```
----
 
 ### ✅ Create and Connect Local Repo to GitHub
 
