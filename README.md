@@ -22,17 +22,15 @@ git config -l
 ### ✅ Create and Connect Local Repo to GitHub
 
 ```bash
-#create  folder : mkdir Project
-
-# Go to your project folder:  cd  project
+#create  folder :
+mkdir Project
+# Go to your project folder:
+ cd  project
 
 # Initialize Git
 git init
-
-
-
-#Check that .git exists:ls -a
-
+#Check that .git exists
+:ls -a
 # Add Maze.py and make your first commit
 
 # Add all files
