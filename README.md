@@ -247,5 +247,6 @@ git commit -m "Renamed GridViewer module to Viewer"
  - `git log --oneline --graph --all`
  - `git log  --oneline`
  - `git log `
+ - ` git reflog ` List operations (e.g. checkouts or commits) made on local repository
 
 
