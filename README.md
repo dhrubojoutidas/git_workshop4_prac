@@ -24,7 +24,6 @@ git config -l
 ```bash
 #create  folder :
 mkdir Project
-
 # Go to your project folder:
 cd  project
 
