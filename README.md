@@ -166,13 +166,7 @@ git status
 
 ---
 
-## 🛠️ Git Tips & Tools
 
-- 📚 View all Git commands: `git help -a`
-- ❓ Help for a command: `git help <command>`
-- ⌨️ Tab completion: `git co<tab>` → shows available options
-
----
 
 ## 🧪 Nano Editor & File Splitting
 
@@ -198,6 +192,19 @@ git commit -m "Renamed GridViewer module to Viewer"
 
 ---
 
+## 🛠️ Git Tips & Tools
+
+- 📚 View all Git commands: `git help -a`
+- ❓ Help for a command: `git help <command>`
+- to see all avialable commnd `git help`
+- Use -h for a quick summary:` git config -h`  / `git config --help`
+- ✅View all current Git settings: git config --list
+- Type the beginning of a command: git config --
+- Press Tab → Git shows available options.
+- Remove an EMPTY directory  :rmdir <directory_name>
+- Remove a directory WITH files): rm -r <dir_name> ⚠ Warning: This permanently deletes files.
+- `winpty python Maze.py` to run the file on git bash &` python Maze.py` for VSCODE
 
 
-<img width="1548" height="4962" alt="image" src="https://github.com/user-attachments/assets/ce356806-0cd9-4bdc-9850-b96c8cbcfe72" />
+---
+
