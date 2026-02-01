@@ -15,7 +15,6 @@
 
 ```markdown
 # 🔍 2. Configure Git
-## 🔍 2. Configure Git
 Set your identity for commits:
 
 ```bash
