@@ -4,6 +4,8 @@
 
 ### ✅ Basic Git Setup
 
+```bash
+
 # Install Git and verify
 git --version
 
@@ -14,6 +16,7 @@ git config --global user.email "your@email.com"
 # View current settings
 git config -l
 
+```
 ---
 
 ### ✅ Create and Connect Local Repo to GitHub
@@ -42,6 +45,7 @@ git branch -M main
 # Push to GitHub and set upstream
 git push -u origin main
 ```
+
 
 ---
 
