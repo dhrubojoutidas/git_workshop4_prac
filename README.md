@@ -143,3 +143,26 @@ git config --global core.autocrlf true
 ---
 
 Let me know if you want to add diagrams, links to your actual repo, or Markdown badges. I can also help you push this README to GitHub if you want to test it live.
+
+🧭 4. Now modify Maze.py by splitting it into two files
+
+
+	(1)Using NANO editor   create  new file like
+	Write nano GD.py 
+	 
+	Then  Open nanao editor to edit then close ctrl + s and exit (ctl+x)
+	
+	To quit Vim: press Esc, then type :wq and hit Enter.
+	To quit Nano: press Ctrl + X, then Y, then Enter.
+	
+	
+	(2) ediit maze.py file
+	Git status for both file
+	git add Maze.py GridViewer.py
+	git commit -m "modify Maze.py by splitting it into two separate files."
+	Git status
+<img width="840" height="451" alt="image" src="https://github.com/user-attachments/assets/38d212e0-d679-4618-b60c-ebe7a53a7c4e" />
+
+
+
+
