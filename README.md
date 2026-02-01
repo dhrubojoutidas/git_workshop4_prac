@@ -8,13 +8,9 @@
 ## 🔍 1. Install Git
 - Download Git from [git-scm.com](https://git-scm.com)
 - Install it on your computer
-
--
 ```
 Verify:
-```bash
-
-  git --version
+```bash  git --version
   ```
 
 ```markdown
