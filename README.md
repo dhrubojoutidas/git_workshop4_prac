@@ -102,6 +102,15 @@ What this does
 ✅ Now Developer 2 sees the changes made by Developer 1.
 ```
 
+
+🧑‍💻
+- ` git branch -M main  `  means `-m → rename safely` & `-M → rename aggressively (force)`
+-  Merge to master and push back to origin :
+-  `git checkout master `   # swicth to master
+-  `git merge change_symbols ` # merge another branch
+-  `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
+
+
 ---
 
 ## 🧹 Ignore Python Cache Files 
