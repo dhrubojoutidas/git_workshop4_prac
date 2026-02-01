@@ -65,13 +65,13 @@ git remote -v
 -  `git merge change_symbols ` # merge another branch
 -  `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
 
-Important Concept: Fetch vs Merge 
-	What git fetch does
-		○ Downloads updates from the remote
-		○ Does not modify your current branch
-		
-	What git merge does:Integrates changes into your current branch
-	git pull= fetch + merge
+## 🔀 Important Concept: Fetch vs Merge 
+
+-What git fetch does
+  - Downloads updates from the remote
+  - Does not modify your current branch
+  - What git merge does:Integrates changes into your current branch
+  - git pull= fetch + merge
 
 ---
 
