@@ -22,16 +22,26 @@ git config -l
 ### ✅ Create and Connect Local Repo to GitHub
 
 ```bash
-# Go to your project folder  cd ~/project
+#create  folder : mkdir Project
+
+# Go to your project folder:  cd  project
 
 # Initialize Git
 git init
 
+
+
+#Check that .git exists:ls -a
+
+# Add Maze.py and make your first commit
+
 # Add all files
 git add .
+git status
 
 # Commit changes
 git commit -m "Initial commit"
+git status
 
 # Add remote GitHub repo
 git remote add origin https://github.com/dhrubojoutidas/git_workshop4_prac.git
