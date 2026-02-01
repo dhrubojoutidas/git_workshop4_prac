@@ -1,4 +1,3 @@
-<img width="739" height="158" alt="image" src="https://github.com/user-attachments/assets/c7664485-c049-4fb1-aefa-97bf0e6b2dd7" />---
 
 ## 🔧 1. Install Git
 - 📥 Download Git from [git-scm.com](https://git-scm.com)
