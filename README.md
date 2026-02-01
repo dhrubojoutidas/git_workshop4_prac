@@ -66,8 +66,8 @@ git push -u origin main
 
 ```bash
 - Open Git Bash and go to a clean folder: `cd `
-- git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2
-- go into  clone folder :cd myproject2
+-` git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2`
+- go into  clone folder :`cd myproject2`
 What this does
 			i. Creates a new directory called myproject2
 			ii. Copies the full repository history
@@ -76,7 +76,7 @@ What this does
 - Create and switch to a new branch: `git checkout -b change_symbols`
 - #Edit Maze.py
 - `git add .`
-- git commit -m "Change symbols in text"
+-` git commit -m "Change symbols in text"`
 - push the new B to the remote : `git push -u origin change_symbols`
 ✔️ The remote repository now has a new branch created by Developer 1.
 
@@ -86,12 +86,13 @@ What this does
 ### 🧑‍💻 Developer 2: Clone, Fetch & Switch
 ```bash
 - we  will create anew folder here. so that
-- cd ~
-- Clone the GitHub repo into a new folder.This will simulate Developer 2 getting the latest code:git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git dev_2_project_folder
-- cd dev_2_project_folder
-- Fetch updates from GitHub3 remote :git fetch origin
-- git checkout change_symbols
--  git log --oneline
+-` cd ~`
+- Clone the GitHub repo into a new folder.This will simulate Developer 2 getting the latest code:
+`git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git dev_2_project_folder`
+- `cd dev_2_project_folder`
+- Fetch updates from GitHub3 remote :`git fetch origin`
+-` git checkout change_symbols`
+- ` git log --oneline`
 ✅ Now Developer 2 sees the changes made by Developer 1.
 ```
 
