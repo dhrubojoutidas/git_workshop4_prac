@@ -13,7 +13,7 @@ git config --global user.email "dhrubotroyee20@gmail.com"
 ```
 Verify:
 ```bash
-git config --global --list
+`git config --global --list`
 `git config --global color.ui auto ` : Enable some colorization of Git output.
 ```
 
