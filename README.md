@@ -124,8 +124,6 @@ git commit -m "Added .gitignore to ignore Python cache files"
 ###  git config --global core.autocrlf true → Windows-friendly (convert LF to CRLF on checkout).
 ###  git config --global core.autocrlf input → Linux/macOS-friendly (keep LF, no conversion on checkout).
 ###  git config --global core.autocrlf false → No conversion at all (you manage line endings manually)
-
-
 	
 
 
@@ -186,7 +184,6 @@ git commit -m "Renamed GridViewer module to Viewer"
 
 ---
 
-Let me know if you want to add badges, links to your repo, or a table of contents. I can also help you push this README to GitHub and preview how it looks live.
 
 
 <img width="1548" height="4962" alt="image" src="https://github.com/user-attachments/assets/ce356806-0cd9-4bdc-9850-b96c8cbcfe72" />
