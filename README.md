@@ -147,13 +147,34 @@ Continue your workflow:
 ```
 ---
 
-### 🧼 If files were added before setting autocrlfto fix that :
+
+
+
+### ✅ Use this if you want to fix **all previously added files**:
+```bash
+git rm --cached -r .
+git reset --hard
+```
+
+- `git rm --cached -r .` removes all files from the staging area (index) without deleting them from your working directory.
+- `git reset --hard` resets your working directory and index to the last commit — useful if you want a clean slate.
+
+### ✅ Use this if you want to fix **specific files only/If files were added before setting autocrlfto fix that :**:
 ```bash
 git rm --cached <filename>
 git reset HEAD <filename>
-then re add and commit status
+```
+- `git rm --cached <filename>` unstages the specific file.
+- `git reset HEAD <filename>` resets the file to the last committed state.
+
+Then in both cases:
+```bash
+git add .
+git commit -m "Fix file tracking issue"
+git status 
 ```
 
+Let me know if you want help choosing which one to use for your repo or if you want to walk through it step by step.
 ---
 
 ## 🛠️ Git Tips & Tools
