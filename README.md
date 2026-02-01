@@ -146,15 +146,12 @@ Continue your workflow:
 		○ Commit: git commit -m "Initial commit"
 ```
 ---
-### 📄 Optional: Add `.gitattributes`
-```
-* text=auto
-```
 
-### 🧼 If files were added before setting autocrlf:
+### 🧼 If files were added before setting autocrlfto fix that :
 ```bash
 git rm --cached <filename>
 git reset HEAD <filename>
+then re add and commit status
 ```
 
 ---
