@@ -166,8 +166,6 @@ git status
 
 ---
 
-
-
 ## 🧪 Nano Editor & File Splitting
 
 Create and edit new file:
@@ -180,8 +178,9 @@ To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 
 
 Rename file:
-```bash
-mv GridViewer.py Viewer.py
+- `mv GridViewer.py Viewer.py`  in terminal
+- `git mv GridViewer.py Viewer.py ` if you want Git to track the rename automatically
+
 ```
 
 Stage and commit:
@@ -204,6 +203,8 @@ git commit -m "Renamed GridViewer module to Viewer"
 - Remove an EMPTY directory  :`rmdir <directory_name>`
 - Remove a directory WITH files):`rm -r <dir_name> `⚠ Warning: This permanently deletes files.
 - `winpty python Maze.py` to run on git bash &` python Maze.py` for VSCODE
+- git `add Viewer.py Maze.py` / `git add -A GridViewer.py`
+
 
 
 ---
