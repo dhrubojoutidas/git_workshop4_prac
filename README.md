@@ -2,29 +2,8 @@
 
 ---
 
-```markdown
-# 🧠 Git Setup & Workflow Notes — MazeProject
-
----
-	1. Install Git and verify:git --version
-	2.  Configure your identity
-	git config --global user.name "Your Name"
-	git config --global user.email "your@email.com"
-	3.  View current settings: git config -l
-	4. Mkdir project
-	5. Go to your project folder  cd   project
-	6. Initialize Git git init
-	7. Add all files :git add .   Git sttaus 
-	8. Commit changes :git commit -m "Initial commit"
-	9. Git sttaus 
-	10. # Add remote GitHub repo
-	git remote add origin https://github.com/dhrubojoutidas/git_workshop4_prac.git
-	11. Verify remote :git remote -v
-	12. Rename branch if needed: git branch -M main
-Push to GitHub and set upstream:git push -u origin main
 
 
-  ```
 
 ✅
 
@@ -81,6 +60,17 @@ git status
 git remote add origin https://github.com/dhrubojoutidas/git_workshop4_prac.git
 git remote -v
 ```
+```markdown
+# 🧠 Git Setup & Workflow Notes — MazeProject
+
+---
+	
+	
+	10. # Add remote GitHub repo
+	git remote add origin https://github.com/dhrubojoutidas/git_workshop4_prac.git
+	11. Verify remote :git remote -v
+	12. Rename branch if needed: git branch -M main
+Push to GitHub and set upstream:git push -u origin main
 
 ---
 
