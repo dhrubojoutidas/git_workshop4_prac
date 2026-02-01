@@ -1,4 +1,4 @@
-
+<img width="1079" height="701" alt="image" src="https://github.com/user-attachments/assets/2ea00844-1b96-4025-83a3-dad8c884f1ec" />
 ## 🔧 1. Install Git
 - 📥 Download Git from [git-scm.com](https://git-scm.com)
 - 💻 Install &  Verify installation: git --version
@@ -58,7 +58,29 @@ git push -u origin main
 ```
 
 ---
+
+ ## 👥 Setting Up a Central (Remote) Git Repository
+
+### 🧑‍💻 Option A — Using an Online Git Service (Recommended
+
+- Create a GitHub repo : ` made git_workshop4_prac`
+- After creating REPO ,Copy  repo URL "`e.g. https://github.com/dhrubojoutidas/pro1.git`
+- go to local folder : ` cd project`
+- if ur project isnt yet GIT repo: `git init`
+- add file :`git add`
+- commit chngs : `git commit -m "Initial commit"`
+- Connect to GitHub: `git remote add origin  https://github.com/dhrubojoutidas/git_workshop4_prac.git`
+- Check remote: `git remote -v`
+  You should see:
+origin  https://github.com/yourusername/ucp-remotes-practice.git (fetch)
+origin  https://github.com/yourusername/ucp-remotes-practice.git (push)
+
+- Rename branch (if needed): `git branch -M main or master`
+- Push to GitHub : `git push -u origin main/master`
+
  
+
+
 
 ## 👥 Two-Developer Simulation
 
