@@ -37,6 +37,13 @@ git add Maze.py
 git status
 git commit -m "Initial commit."
 git status
+git status
+
+`git reset [file] `:unstage a file while retaining the changes in working directory
+`git diff` :diff of what is changed but not staged
+`git diff --staged` :diff of what is staged but not yet committed
+`git commit -m “[descriptive message]”`
+
 ```
 
 > 💡 **What does `git add` do?**  
