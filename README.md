@@ -121,9 +121,9 @@ git commit -m "Added .gitignore to ignore Python cache files"
 
 
 
-##  git config --global core.autocrlf true → Windows-friendly (convert LF to CRLF on checkout).
-##  git config --global core.autocrlf input → Linux/macOS-friendly (keep LF, no conversion on checkout).
-##  git config --global core.autocrlf false → No conversion at all (you manage line endings manually)
+###  git config --global core.autocrlf true → Windows-friendly (convert LF to CRLF on checkout).
+###  git config --global core.autocrlf input → Linux/macOS-friendly (keep LF, no conversion on checkout).
+###  git config --global core.autocrlf false → No conversion at all (you manage line endings manually)
 
 
 	
