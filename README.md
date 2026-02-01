@@ -10,6 +10,7 @@
 - Install it on your computer
 - Verify installation:
   ```bash
+
   git --version
   ```
 
@@ -18,6 +19,7 @@
 Set your identity for commits:
 
 ```bash
+
 git config --global user.name ""
 git config --global user.email ""
 ```
