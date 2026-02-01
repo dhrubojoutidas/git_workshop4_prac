@@ -198,12 +198,12 @@ git commit -m "Renamed GridViewer module to Viewer"
 - ❓ Help for a command: `git help <command>`
 - to see all avialable commnd `git help`
 - Use -h for a quick summary:` git config -h`  / `git config --help`
-- ✅View all current Git settings: git config --list
-- Type the beginning of a command: git config --
+- ✅View all current Git settings: `git config --list`
+- Type the beginning of a command:` git config --`
 - Press Tab → Git shows available options.
-- Remove an EMPTY directory  :rmdir <directory_name>
-- Remove a directory WITH files): rm -r <dir_name> ⚠ Warning: This permanently deletes files.
-- `winpty python Maze.py` to run the file on git bash &` python Maze.py` for VSCODE
+- Remove an EMPTY directory  :`rmdir <directory_name>`
+- Remove a directory WITH files):`rm -r <dir_name> `⚠ Warning: This permanently deletes files.
+- `winpty python Maze.py` to run on git bash &` python Maze.py` for VSCODE
 
 
 ---
