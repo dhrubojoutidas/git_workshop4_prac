@@ -28,14 +28,10 @@ git status
 
 ---
 
-## 🌐 4. Connect to GitHub Remote Repo
-```bash
-git remote add origin https://github.com/dhrubojoutidas/git_workshop4_prac.git
-git remote -v
-```
+
 ---
 
-## 🔀 6. Rename Branch & Push to GitHub
+## 🔀 5. Rename Branch & Push to GitHub
 ```bash
 - git branch -M main means `-m → rename safely` & `-M → rename aggressively (force)
 - git branch [-a] 
@@ -57,7 +53,7 @@ git remote -v
 ``` 
 ---
 
-##  7 🔀 Important Concept: Fetch vs Merge 
+##  6 🔀 Important Concept: Fetch vs Merge 
 
 -What git fetch does
   - Downloads updates from the remote
@@ -67,9 +63,22 @@ git remote -v
 
 ---
 
-## 8 👥 Setting Up a Central (Remote) Git Repository
+## 7 👥  Connect to GitHub Remote Repo
 
-<img width="1079" height="701" alt="image" src="https://github.com/user-attachments/assets/2ea00844-1b96-4025-83a3-dad8c884f1ec" />
+- create a git repo like git_workshop_prac4
+- after creating repo copy REPO  URL :
+- go to  local folder : cd project
+- git init
+- gtu add .
+- git commit -m "     "
+- to connect with github :git remote add origin https://github.com/dhrubojoutidas/git_workshop4_prac.git
+- git remote -v
+- you should see somting [----- fetch] [push ]
+- rename branch : git brach -M main/master
+- push to github : git push -u origin main/master
+
+
+
  
 
 ##  👥 Two-Developer Simulation
