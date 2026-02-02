@@ -180,14 +180,23 @@ Continue your workflow:
 
 
 
+
+---
+
+## 🛠️ Git Tips & Tools
+
+- 📚 View all Git commands: `git help -a`
+- ❓ Help for a command: `git help <command>`
+- to see all avialable commnd `git help`
+- Use -h for a quick summary:` git config -h`  / `git config --help`
+- ✅View all current Git settings: `git config --list`
+- Type the beginning of a command:` git config --`
+- Press Tab → Git shows available options.
+
 ## 🧪 Nano Editor & File Splitting
 
-Create and edit new file:
-```bash
-nano Viewer.py
-```
-Exit Nano: `Ctrl + X`, then `Y`, then `Enter` for  open `'ctr;+s`
-
+Create and edit new file: `Nano Viewer.py` 
+`Exit Nano: `Ctrl + X`, then `Y`, then `Enter` for  open `'ctr;+s` 
 To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 
 
@@ -202,27 +211,13 @@ Stage and commit:
 git add Maze.py Viewer.py
 git commit -m "Renamed GridViewer module to Viewer"
 ```
-
----
-
-## 🛠️ Git Tips & Tools
-
-- 📚 View all Git commands: `git help -a`
-- ❓ Help for a command: `git help <command>`
-- to see all avialable commnd `git help`
-- Use -h for a quick summary:` git config -h`  / `git config --help`
-- ✅View all current Git settings: `git config --list`
-- Type the beginning of a command:` git config --`
-- Press Tab → Git shows available options.
+- 
   
 - Remove an EMPTY directory  :`rmdir <directory_name>`
 - Remove a directory WITH files):`rm -r <dir_name> `⚠ Warning: This permanently deletes files.
 - `git rm [file]`   #  delete the file from project and stage the removal for commit
-- `git mv [existing-path] [new-path]`  # change an existing file path and stage the move
-
-- `winpty python Maze.py` to run on git bash &` python Maze.py` for VSCODE
-- -`git rebase [branch]  `  apply any commits of current branch ahead of specified one
-
+-  `winpty python Maze.py` to run on git bash &` python Maze.py` for VSCODE
+- `git rebase [branch]  `  apply any commits of current branch ahead of specified one
 - `git revert [commit sha]` Create a new commit, reverting changes from specified commit. 
 
 ---
@@ -233,7 +228,7 @@ git commit -m "Renamed GridViewer module to Viewer"
 - `git reset --hard` resets your working directory and index to the last commit — useful if you want a clean slate.
 
 ### ✅ if you want to fix specific files only/If files were added before setting autocrlfto fix that :
-- `git rm --cached <filename>` unstages the specific file.
+- `git rm --cached <filename>` # Unstage all files without deleting them
 - `git reset HEAD <filename>` resets the file to the last committed state.
 
 Then in both cases:
