@@ -204,7 +204,7 @@ Rename file:
 ---
 
 ## 13 verifications 
-
+```bash
  - after you finished editing Maze.py and creating GridViewer.py, but before git add,` git diff --color `
  - ` git log --oneline --graph --decorate`
  - `git log --branches --graph`
@@ -213,20 +213,21 @@ Rename file:
  - `git log ` #  show the commit history for the currently active branch
  - ` git reflog ` List operations (e.g. checkouts or commits) made on local repository
  - `git log --stat -M ` #  show all commit logs with indication of any paths that moved
- - git log branchB..branchA     show the commits on branchA that are not on branchB
- - git log --follow [file]    show the commits that changed file, even across renames
- - git diff branchB..branchA     show the diff of what is in branchA that is not in branchB
- - git show [SHA]     show any object in Git in human-readable format
- - git log [-n count] List commit history of current branch. -n count limits list to last n commits.
- - git log --oneline --graph --decorate An overview with reference labels and history graph. One commit per line.
- - git log ref.. List commits that present on  current branch & not merged into ref. A ref can be a branch name or a tag 
- - git reflog List operations (e.g. checkouts or commits) made on local repository
+ - `git log branchB..branchA  `   show the commits on branchA that are not on branchB
+ -` git log --follow [file] `   show the commits that changed file, even across renames
+ - `git diff branchB..branchA `    show the diff of what is in branchA that is not in branchB
+ - `git show [SHA] `    show any object in Git in human-readable format
+ - `git log [-n count]` List commit history of current branch. -n count limits list to last n commits.
+ - `git log --oneline --graph --decorate` An overview with reference labels and history graph. One commit per line.
+ - `git log ref..` List commits  present on  current branch & not merged into ref. A ref can be a branch name or a tag 
+ - `git reflog `List operations (e.g. checkouts or commits) made on local repository
+ - ` git stash `  Put current changes in your working directory into stash for later use.
+ -  `git stash list `   list stack-order of stashed file changes
+ - ` git stash pop `  Apply stored stash content into working directory, and clear stash.
+ -  `git stash drop `    discard the changes from top of stash stack
+```
 
- - 
- -  git stash   Put current changes in your working directory into stash for later use.
- -  git stash list    list stack-order of stashed file changes
- -  git stash pop   Apply stored stash content into working directory, and clear stash.
- -  git stash drop     discard the changes from top of stash stack
+---
 
 ## 14 TAG 
 	🧠 Why this matters
