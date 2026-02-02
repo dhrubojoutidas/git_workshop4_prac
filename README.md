@@ -43,8 +43,7 @@ git remote -v
 - git checkout [barnch name]   
 - git checkout [-b][branch_name]
 - git branch -d [name]   #Remove selected branch, . -D instead of -d forces deletion
-- git push -u origin main  | Push + set upstream tracking |First time pushing a branch
-- git push  origin main| Push only |After upstream is already set
+
 
 ```
 
@@ -52,7 +51,8 @@ git remote -v
 ```bash
 -  git checkout master    # swicth to master
 -  git merge change_symbols  # merge another branch
-- git push origin master  ✔️ The fix is now merged into master and shared with everyone.
+- git push -u origin main  | Push + set upstream tracking |First time pushing a branch
+- git push  origin main| Push only |After upstream is already set ✔️ now merged into master &shared with everyone.
 - git merge
 ``` 
 ---
