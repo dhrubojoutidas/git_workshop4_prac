@@ -46,13 +46,13 @@ git remote -v
 ```bash
 - git branch -M main means `-m → rename safely` & `-M → rename aggressively (force)
 - `git branch [-a] `
-- ` Git  branch [branch-name] ` #create a new branch at the current commit
-- git checkout [barnch name]   switch to another branch & check out into ur working director
--  git checkout [-b][branch_name]
--  git branch -d [name]   #Remove selected branch, if it is already merged into any other. -D instead of -d forces deletion
+- `Git  branch [branch-name] ` #create a new branch at the current commit
+- `git checkout [barnch name]`   switch to another branch & check out into ur working director
+-` git checkout [-b][branch_name]`
+- `git branch -d [name]`   #Remove selected branch, if it is already merged into any other. -D instead of -d forces deletion
 
-- git push -u origin main  | Push + set upstream tracking |First time pushing a branch
-- git push  origin main | Push only |After upstream is already set
+- `git push -u origin main`  | Push + set upstream tracking |First time pushing a branch
+- `git push  origin main` | Push only |After upstream is already set
 
 
 ```
