@@ -2,7 +2,6 @@
 - 📥 Download Git from [git-scm.com](https://git-scm.com)
 - 💻 Install &  Verify installation: git --version
 -  sudo apt-get install git
-
 ---
 
 ## 🧑‍💻 2. Configure Git Identity
@@ -16,10 +15,10 @@ Set your name and email (used for commits):
 
 ## 📁 3. Create Project Folder & Initialize Git
 ```bash
-mkdir MazeProject
-cd MazeProject
-git init
-ls -a  # should show: .  ..  .git
+`mkdir MazeProject`
+`cd MazeProject`
+`git init`
+` ls -a ` # should show: .  ..  .git
 ```
 
 ---
