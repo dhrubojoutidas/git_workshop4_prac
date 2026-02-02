@@ -27,7 +27,7 @@ Set your name and email (used for commits):
 Copy `Maze.py` into this folder, then:
 ```bash
 git status
-`git add Maze.py`   o  r` git add .`
+`git add Viewer.py Maze.py` / `git add -A GridViewer.py`
 git status
 git commit -m "Initial commit."
 git status
@@ -230,10 +230,17 @@ git commit -m "Renamed GridViewer module to Viewer"
 - ✅View all current Git settings: `git config --list`
 - Type the beginning of a command:` git config --`
 - Press Tab → Git shows available options.
+  
 - Remove an EMPTY directory  :`rmdir <directory_name>`
 - Remove a directory WITH files):`rm -r <dir_name> `⚠ Warning: This permanently deletes files.
+- `git rm [file]`   #  delete the file from project and stage the removal for commit
+- `git mv [existing-path] [new-path]`  # change an existing file path and stage the move
+
 - `winpty python Maze.py` to run on git bash &` python Maze.py` for VSCODE
-- git `add Viewer.py Maze.py` / `git add -A GridViewer.py`
+- -`git rebase [branch]  `  apply any commits of current branch ahead of specified one
+- `git reset --hard [commit]  ` clear staging area, rewrite working tree from specified commit
+- `git revert [commit sha]` Create a new commit, reverting changes from specified commit. 
+
 
 ---
 
@@ -245,5 +252,8 @@ git commit -m "Renamed GridViewer module to Viewer"
  - `git log  --oneline`
  - `git log `
  - ` git reflog ` List operations (e.g. checkouts or commits) made on local repository
+ - `git log --stat -M ` #  show all commit logs with indication of any paths that moved
+
+
 
 
