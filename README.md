@@ -46,14 +46,14 @@ git remote -v
 - `git push -u origin main`  | Push + set upstream tracking |First time pushing a branch
 - `git push  origin main` | Push only |After upstream is already set
 
-
 ```
 
 -  Merge to master and push back to origin :
 -  `git checkout master `   # swicth to master
 -  `git merge change_symbols ` # merge another branch
--  `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
--   git merge 
+- `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
+- `git merge`
+-   
 ---
 
 ##  7 🔀 Important Concept: Fetch vs Merge 
@@ -68,12 +68,12 @@ git remote -v
 
 ## 8 👥 Setting Up a Central (Remote) Git Repository
 
-
 <img width="1079" height="701" alt="image" src="https://github.com/user-attachments/assets/2ea00844-1b96-4025-83a3-dad8c884f1ec" />
  
 
 ##  👥 Two-Developer Simulation
 
+---
 ### 🧑‍💻 Developer 1: Clone remote repo, cretae B , commit and push
 
 ```bash
@@ -96,6 +96,8 @@ What this does
 ---
 
 ### 🧑‍💻 Developer 2: Clone, Fetch & Switch
+---
+
 ```bash
 -  Clone the GitHub repo into a new folder.This will simulate Developer 2 getting the latest code:
 -` cd ~`
@@ -105,12 +107,11 @@ What this does
 -` git checkout change_symbols`
 - ` git log --oneline`  ✅ Now Developer 2 sees the changes made by Developer 1.
 ```
-
-
 ---
 
 ##  10🧹 Ignore Python Cache Files 
 
+---
 in your project folder Create  NANO EDITOR `.gitignore`  to tell Git to ignore these files::
 ```
 			# Python cache
@@ -142,6 +143,7 @@ To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 
 
 ## 11 ⚙️ Line Ending Settings (Windows vs Linux)
+---
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e097fecb-dcc2-40df-af66-32dd19f12628" />
 
 
@@ -161,12 +163,11 @@ Continue your workflow:
 		○ Add files: git add Maze.py
 		○ Commit: git commit -m "Initial commit"
 ```
-
-
 ---
 
 ## 12 🛠️ Git Tips & Tools
 
+---
 - 📚 View all Git commands: `git help -a`
 - ❓ Help for a command: `git help <command>`
 - to see all avialable commnd `git help`
@@ -176,7 +177,7 @@ Continue your workflow:
 - Press Tab → Git shows available options.
 
 
-
+---
 Rename file:
 - `mv GridViewer.py Viewer.py`  in terminal
 - `git mv GridViewer.py Viewer.py ` if you want Git to track the rename automatically
