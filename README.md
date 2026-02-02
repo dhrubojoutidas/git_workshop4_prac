@@ -31,10 +31,8 @@ git status
 ## 🔀 5. Rename Branch & Push to GitHub
 ```bash
 
-
-
 - git branch -M main means `-m → rename safely` & `-M → rename aggressively (force)
--  Create a New Branch : `git branch updating_amze `
+-  `Create a New Branch  `: git branch updating_amze 
 -  Switch to New Branch : ` git checkout branch2 `
 - ` git branch [-a]  `
 -  Create and Switch in One Step: ` git checkout [-b][branch_name] `
