@@ -281,7 +281,8 @@ Rename file:
 		○ Helps in tracking changes, collaboration, and undoing mistakes.
 ---
 
-2. Git is NOT GitHub
+### 2. Git is NOT GitHub
+---
 
 What is Git?
 	• Git: is a Version Control System (VCS)—a piece of software you install on your computer.
@@ -295,7 +296,8 @@ What is GitHub.com / Bitbucket.org:
 				§ Tracking progress
 				§ Discussing issues
 				§ Conducting code reviews
-  Important Distinction:
+				
+	Important Distinction:
 		· Git (the VCS) and GitHub (the hosting service) are separate things.
 		· You can use Git by itself on your computer without any hosting service.
 		· Or, you can use Git together with a hosting service for easier collaboration and remote access.
@@ -309,7 +311,7 @@ What is GitHub.com / Bitbucket.org:
 			○ We’ll use Git via the command-line:
 				§ There are GUI and web tools available.
 				§ But the command-line is better for learning.
-	
+---
 
 3. Undoing Mistakes
 At some point in development, you might experience this cycle:
