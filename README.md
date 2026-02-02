@@ -90,12 +90,13 @@ git status
 -git add .
 -git commit -m "Change symbols in text"
 - push the new B to the remote : git push -u origin change_symbols
-✔️ The remote repository now has a new branch created by Developer 1.
+
 What this does
 			i. Creates a new directory called myproject2
 			ii. Copies the full repository history
 			iii. Automatically sets:origin → remote repository
-📌 Note: A bare repository cannot be worked on directly — cloning creates a working copy.	
+📌 Note: A bare repository cannot be worked on directly — cloning creates a working copy.
+✔️ The remote repository now has a new branch created by Developer 1.
 
 ```
 ---
@@ -135,8 +136,7 @@ in your project folder Create  NANO EDITOR `.gitignore`  to tell Git to ignore t
 
 Then:
 ```bash
-git add .gitignore
-git commit -m "Added .gitignore to ignore Python cache files"
+git add .gitignore and git  & git commit -m "Added .gitignore to ignore Python cache files"
 ```
 
 ---
@@ -164,9 +164,7 @@ To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 
 Then:
 ```bash
-Continue your workflow:
-		○ Add files: git add Maze.py
-		○ Commit: git commit -m "Initial commit"
+Continue your workflow: Add files: git add Maze.py &  Commit: git commit -m "Initial commit"
 ```
 ---
 
@@ -191,8 +189,7 @@ Rename file:
 
 Stage and commit:
 ```bash
-git add Maze.py Viewer.py
-git commit -m "Renamed GridViewer module to Viewer"
+git add Maze.py Viewer.py & git commit -m "Renamed GridViewer module to Viewer"
 ```
 - 
   
@@ -218,9 +215,7 @@ git commit -m "Renamed GridViewer module to Viewer"
 
 Then in both cases:
 ```bash
-git add .
-git commit -m "Fix file tracking issue"
-git status 
+git add . & git commit -m "Fix file tracking issue" & git status 
 ```
 
 ---
