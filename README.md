@@ -19,13 +19,6 @@ Set your name and email (used for commits):
 `cd MazeProject`
 `git init`
 ` ls -a ` # should show: .  ..  .git
-```
-
----
-
-## 🐍 4. Add Maze.py & Make First Commit
-Copy `Maze.py` into this folder, then:
-```bash
 git status
 `git add Viewer.py Maze.py` / `git add -A GridViewer.py`
 git status
@@ -35,7 +28,7 @@ git status
 
 ---
 
-## 🌐 5. Connect to GitHub Remote Repo
+## 🌐 4. Connect to GitHub Remote Repo
 ```bash
 git remote add origin https://github.com/dhrubojoutidas/git_workshop4_prac.git
 git remote -v
@@ -85,7 +78,7 @@ git remote -v
 ### 🧑‍💻 Developer 1: Clone remote repo, cretae B , commit and push
 
 ```bash
-- Open Git Bash and go to a clean folder: `cd `
+- : `cd `
 -` git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2`
 - go into  clone folder :`cd myproject2`
 What this does
@@ -119,7 +112,7 @@ What this does
 
 ---
 
-## 🧹 Ignore Python Cache Files 
+###🧹 Ignore Python Cache Files 
 
 in your project folder Create `.gitignore`  to tell Git to ignore these files::
 ```
@@ -150,12 +143,12 @@ git commit -m "Added .gitignore to ignore Python cache files"
 ## ⚙️ Line Ending Settings (Windows vs Linux)
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e097fecb-dcc2-40df-af66-32dd19f12628" />
 
-###  ✅  Windows-friendly (convert LF to CRLF on checkout).
+## ✅  Windows-friendly (convert LF to CRLF on checkout).
 ```bash
 git config --global core.autocrlf true
 
 ```
-###  ✅ Linux/macOS-friendly (keep LF, no conversion on checkout).
+##  ✅ Linux/macOS-friendly (keep LF, no conversion on checkout).
 ```bash
 git config --global core.autocrlf input
 
@@ -175,9 +168,6 @@ Continue your workflow:
 		○ Add files: git add Maze.py
 		○ Commit: git commit -m "Initial commit"
 ```
----
-
-
 
 
 
