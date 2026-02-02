@@ -1,15 +1,15 @@
 ## 🔧 1. Install Git
 - 📥 Download Git from [git-scm.com](https://git-scm.com)
 - 💻 Install &  Verify installation: git --version
--  sudo apt-get install git
+- sudo apt-get install git
 ---
 
 ## 🧑‍💻 2. Configure Git Identity
 Set your name and email (used for commits):
 ```bash
-git config --global user.name "dhrubojoitidas"
-`git config --global user.email "dhrubotroyee20@gmail.com"`
-`git config --global color.ui auto ` : Enable some colorization of Git output.
+-  git config --global user.name "dhrubojoitidas"
+- `git config --global user.email "dhrubotroyee20@gmail.com"`
+- `git config --global color.ui auto ` : Enable some colorization of Git output.
 ```
 ---
 
@@ -28,9 +28,6 @@ git status
 
 ---
 
-
----
-
 ## 🔀 5. Rename Branch & Push to GitHub
 ```bash
 - git branch -M main means `-m → rename safely` & `-M → rename aggressively (force)
@@ -45,8 +42,8 @@ git status
 
 -  Merge to master and push back to origin :
 ```bash
--  git checkout master    # swicth to master
--  git merge change_symbols  # merge another branch
+- git checkout master    # swicth to master
+- git merge change_symbols  # merge another branch
 - git push -u origin main  | Push + set upstream tracking |First time pushing a branch
 - git push  origin main| Push only |After upstream is already set ✔️ now merged into master &shared with everyone.
 - git merge
@@ -66,7 +63,7 @@ git status
 ## 7 👥  Connect to GitHub Remote Repo
 
 - create a git repo like git_workshop_prac4
-- after creating repo copy REPO  URL :
+- after creating repo copy REPO  URL :https://github.com/dhrubojoutidas/pro1.git
 - go to  local folder : cd project
 - git init
 - gtu add .
@@ -77,30 +74,28 @@ git status
 - rename branch : git brach -M main/master
 - push to github : git push -u origin main/master
 
-
-
- 
+--- 
 
 ##  👥 Two-Developer Simulation
 
 ---
 ### 🧑‍💻 Developer 1: Clone remote repo, cretae B , commit and push
 
-```bash
-- cd 
--git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2
--Cd myproject2
+
+- `cd `
+- `git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2`
+- `Cd myproject2`
+- Create and switch to a new branch: `git checkout -b change_symbols`
+- #Edit Maze.py
+-` git add .`
+-`git commit -m "Change symbols in text"`
+- push the new B to the remote : `git push -u origin change_symbols`
+✔️ The remote repository now has a new branch created by Developer 1.
 What this does
 			i. Creates a new directory called myproject2
 			ii. Copies the full repository history
 			iii. Automatically sets:origin → remote repository
 📌 Note: A bare repository cannot be worked on directly — cloning creates a working copy.	
-- Create and switch to a new branch: `git checkout -b change_symbols`
-- #Edit Maze.py
-- git add .
--git commit -m "Change symbols in text"
-- push the new B to the remote : `git push -u origin change_symbols
-✔️ The remote repository now has a new branch created by Developer 1.
 
 ```
 ---
