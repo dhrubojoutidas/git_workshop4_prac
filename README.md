@@ -61,7 +61,7 @@ git status
 ---
 
 ## 7 👥  Connect to GitHub Remote Repo
-
+```bash
 - create a git repo like git_workshop_prac4
 - after creating repo copy REPO  URL :https://github.com/dhrubojoutidas/pro1.git
 - go to  local folder : cd project
@@ -73,7 +73,7 @@ git status
 - you should see somting [----- fetch] [push ]
 - rename branch : git brach -M main/master
 - push to github : git push -u origin main/master
-
+```
 --- 
 
 ##  👥 Two-Developer Simulation
