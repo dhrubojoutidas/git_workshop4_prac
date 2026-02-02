@@ -262,11 +262,11 @@ Rename file:
 ```
 
 
+### PAGE 1: Version Control Notes
+---
 
-PAGE 1: Version Control Notes
 
-
-1. Version Control
+## 1. Version Control
 	• Definition: A system that tracks and manages changes to software projects over time.
 	• Why Important?
 		○ Maintains a complete history of all work.
@@ -279,6 +279,7 @@ PAGE 1: Version Control Notes
 		○ You cannot realistically do version control without a VCS.
 		○ A VCS is a tool, not magic—requires learning.
 		○ Helps in tracking changes, collaboration, and undoing mistakes.
+---
 
 2. Git is NOT GitHub
 
