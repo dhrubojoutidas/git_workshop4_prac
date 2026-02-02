@@ -245,6 +245,31 @@ git status
  -  git stash pop   Apply stored stash content into working directory, and clear stash.
  -  git stash drop     discard the changes from top of stash stack
 
+## 14 TAG 
+	🧠 Why this matters
+		○ Tags preserve the history of your work
+		○ Deleting unused branches keeps your project clean 
+		This is good Git hygiene — especially for team projects
+- 
+
+06 Tagging known commits
+```bash 
+ - git tag   List all tags.
+ - $ git tag [name] [commit sha]   #Create a tag reference named name for current commit. Add commit sha to tag a specific commit instead of current one.
+- git tag -a [name] [commit sha]   #Create a tag object named name for current commit.
+- git tag -d [name]   #Remove a tag from local repository.
+ -git push [--tags] [remote]   Push local changes to the remote. Use --tags to push tags.
+- git tag:  List all tags. #	archive/updating_maze #archive/updating_messages
+
+```
+
+
+	1️⃣ This creates a permanent label so you can refer back to the work later.
+	
+
+	These tags are just names — archive/ is a naming convention to show they’re archived.
+	
+
 
 
 
