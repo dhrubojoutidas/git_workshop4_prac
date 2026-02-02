@@ -178,23 +178,7 @@ Continue your workflow:
 ---
 
 
-### ✅ Use this if you want to fix **all previously added files**:
 
-- `git rm --cached -r .` removes all files from the staging area (index) without deleting them from your working directory.
-- `git reset --hard` resets your working directory and index to the last commit — useful if you want a clean slate.
-
-### ✅ if you want to fix specific files only/If files were added before setting autocrlfto fix that :
-- `git rm --cached <filename>` unstages the specific file.
-- `git reset HEAD <filename>` resets the file to the last committed state.
-
-Then in both cases:
-```bash
-git add .
-git commit -m "Fix file tracking issue"
-git status 
-```
-
----
 
 ## 🧪 Nano Editor & File Splitting
 
@@ -238,9 +222,26 @@ git commit -m "Renamed GridViewer module to Viewer"
 
 - `winpty python Maze.py` to run on git bash &` python Maze.py` for VSCODE
 - -`git rebase [branch]  `  apply any commits of current branch ahead of specified one
-- `git reset --hard [commit]  ` clear staging area, rewrite working tree from specified commit
+
 - `git revert [commit sha]` Create a new commit, reverting changes from specified commit. 
 
+---
+
+### ✅ Use this if you want to fix **all previously added files**:
+
+- `git rm --cached -r .` removes all files from the staging area (index) without deleting them from your working directory.
+- `git reset --hard` resets your working directory and index to the last commit — useful if you want a clean slate.
+
+### ✅ if you want to fix specific files only/If files were added before setting autocrlfto fix that :
+- `git rm --cached <filename>` unstages the specific file.
+- `git reset HEAD <filename>` resets the file to the last committed state.
+
+Then in both cases:
+```bash
+git add .
+git commit -m "Fix file tracking issue"
+git status 
+```
 
 ---
 
