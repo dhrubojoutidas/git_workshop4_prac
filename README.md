@@ -261,6 +261,10 @@ git status
 - git tag -d [name]   #Remove a tag from local repository.
  -git push [--tags] [remote]   Push local changes to the remote. Use --tags to push tags.
 - git tag:  List all tags. #	archive/updating_maze #archive/updating_messages
+- `git diff` :diff of what is changed but not staged
+-  `git diff --staged` :diff of what is staged but not yet committed
+
+
 
 
 ```
