@@ -200,10 +200,11 @@ Rename file:
 - `git reset HEAD <filename>` resets the file to the last committed state.
 - `git reset [file] `:unstage a file while retaining the changes in working directorY
 - then git add, commit and status
-
+``` 
 ---
 
 ## 13 verifications 
+
  - after you finished editing Maze.py and creating GridViewer.py, but before git add,` git diff --color `
  - ` git log --oneline --graph --decorate`
  - `git log --branches --graph`
@@ -218,8 +219,8 @@ Rename file:
  - git show [SHA]     show any object in Git in human-readable format
  - git log [-n count] List commit history of current branch. -n count limits list to last n commits.
  - git log --oneline --graph --decorate An overview with reference labels and history graph. One commit per line.
- - git log ref.. List commits that are present on the current branch and not merged into ref. A ref can be a branch name or a tag name
- -   git reflog List operations (e.g. checkouts or commits) made on local repository
+ - git log ref.. List commits that present on  current branch & not merged into ref. A ref can be a branch name or a tag 
+ - git reflog List operations (e.g. checkouts or commits) made on local repository
 
  - 
  -  git stash   Put current changes in your working directory into stash for later use.
