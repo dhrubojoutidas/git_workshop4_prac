@@ -1,22 +1,17 @@
-
 ## 🔧 1. Install Git
 - 📥 Download Git from [git-scm.com](https://git-scm.com)
 - 💻 Install &  Verify installation: git --version
+-  sudo apt-get install git
 
 ---
 
 ## 🧑‍💻 2. Configure Git Identity
 Set your name and email (used for commits):
 ```bash
-git config --global user.name "dhrubojoitidas"
-git config --global user.email "dhrubotroyee20@gmail.com"
-```
-Verify:
-```bash
-`git config --global --list`
+`git config --global user.name "dhrubojoitidas"`
+`git config --global user.email "dhrubotroyee20@gmail.com"`
 `git config --global color.ui auto ` : Enable some colorization of Git output.
 ```
-
 ---
 
 ## 📁 3. Create Project Folder & Initialize Git
@@ -33,22 +28,11 @@ ls -a  # should show: .  ..  .git
 Copy `Maze.py` into this folder, then:
 ```bash
 git status
-git add Maze.py
+`git add Maze.py`   o  r` git add .`
 git status
 git commit -m "Initial commit."
 git status
-git status
-
-`git reset [file] `:unstage a file while retaining the changes in working directory
-`git diff` :diff of what is changed but not staged
-`git diff --staged` :diff of what is staged but not yet committed
-`git commit -m “[descriptive message]”`
-
 ```
-
-> 💡 **What does `git add` do?**  
-> It stages your changes — Git marks the file as “ready to be committed”.  
-> It does **not** save permanently; it just prepares it for the next commit.
 
 ---
 
@@ -62,6 +46,12 @@ git remote -v
 ## 🔀 6. Rename Branch & Push to GitHub
 ```bash
 - git branch -M main means `-m → rename safely` & `-M → rename aggressively (force)
+- `git branch [-a] `
+- ` Git  branch [branch-name] ` #create a new branch at the current commit
+- git checkout [barnch name]   switch to another branch & check out into ur working director
+-  git checkout [-b][branch_name]
+-  git branch -d [name]   #Remove selected branch, if it is already merged into any other. -D instead of -d forces deletion
+
 - git push -u origin main  | Push + set upstream tracking |First time pushing a branch
 - git push  origin main | Push only |After upstream is already set
 
@@ -72,6 +62,7 @@ git remote -v
 -  `git checkout master `   # swicth to master
 -  `git merge change_symbols ` # merge another branch
 -  `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
+-   git merge 
 
 ## 🔀 Important Concept: Fetch vs Merge 
 
