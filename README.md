@@ -132,18 +132,14 @@ in your project folder Create  NANO EDITOR `.gitignore`  to tell Git to ignore t
 			# IDE settings
 			.vscode/
             .idea/
-```
-
-Then:
-```bash
-git add .gitignore and git  & git commit -m "Added .gitignore to ignore Python cache files"
+git add .gitignore  |  git  & git commit -m "Added .gitignore to ignore Python cache files" |
 ```
 
 ---
 
 
 Create and edit new file: `Nano Viewer.py` 
-`Exit Nano: `Ctrl + X`, then `Y`, then `Enter` for  open `'ctr;+s` 
+`Exit Nano: `Ctrl + X`, then `Y`, then `Enter` for  open ` ctr;+s` 
 To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 
 
@@ -155,6 +151,7 @@ To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 - ` git config --global core.autocrlf true ` # Windows-friendly (convert LF to CRLF on checkout)
 - `git config --global core.autocrlf input ` #✅ Linux/macOS-friendly (keep LF, no conversion on checkout).
 - ` git config --global core.autocrlf false ` # ✅ No conversion at all (you manage line endings manually)
+- Continue your workflow: ` Add files: git add Maze.py &  Commit: git commit -m "Initial commit" `
 ```bash
 
 ```
@@ -162,10 +159,6 @@ To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 -  When you add files: Git converts CRLF → LF internally.
 -  When you checkout files: Git converts LF → CRLF for Windows
 
-Then:
-```bash
-Continue your workflow: Add files: git add Maze.py &  Commit: git commit -m "Initial commit"
-```
 ---
 
 ## 12 🛠️ Git Tips & Tools
@@ -184,14 +177,9 @@ Continue your workflow: Add files: git add Maze.py &  Commit: git commit -m "Ini
 Rename file:
 - `mv GridViewer.py Viewer.py`  in terminal
 - `git mv GridViewer.py Viewer.py ` if you want Git to track the rename automatically
+- ` git add Maze.py Viewer.py & git commit -m "Renamed GridViewer module to Viewer" `
 
 ```
-
-Stage and commit:
-```bash
-git add Maze.py Viewer.py & git commit -m "Renamed GridViewer module to Viewer"
-```
-- 
   
 - Remove an EMPTY directory  :`rmdir <directory_name>`
 - Remove a directory WITH files):`rm -r <dir_name> `⚠ Warning: This permanently deletes files.
@@ -211,12 +199,7 @@ git add Maze.py Viewer.py & git commit -m "Renamed GridViewer module to Viewer"
 - `git rm --cached <filename>` # Unstage all files without deleting them
 - `git reset HEAD <filename>` resets the file to the last committed state.
 - `git reset [file] `:unstage a file while retaining the changes in working directorY
-
-
-Then in both cases:
-```bash
-git add . & git commit -m "Fix file tracking issue" & git status 
-```
+- then git add, commit and status
 
 ---
 
