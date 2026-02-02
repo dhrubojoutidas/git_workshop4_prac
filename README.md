@@ -284,11 +284,11 @@ Rename file:
 ### 2. Git is NOT GitHub
 ---
 
-What is Git?
-	• Git: is a Version Control System (VCS)—a piece of software you install on your computer.
-	• It helps you track changes, manage versions, and collaborate on code.
+	What is Git?
+	     • Git: is a Version Control System (VCS)—a piece of software you install on your computer.
+	     • It helps you track changes, manage versions, and collaborate on code.
 	
-What is GitHub.com / Bitbucket.org: 
+    What is GitHub.com / Bitbucket.org: 
  
 		○ Hosting services that use Git/ VCS tools like Mercurial.
 		○ A central place to store (“host”) your project code.
@@ -308,13 +308,15 @@ What is GitHub.com / Bitbucket.org:
 					□ 13,500+ developers
 					□ Running since 1991
 				§ Git was created to handle this complexity.
-			○ We’ll use Git via the command-line:
+			  We’ll use Git via the command-line:
 				§ There are GUI and web tools available.
 				§ But the command-line is better for learning.
 ---
 
-3. Undoing Mistakes
-At some point in development, you might experience this cycle:
+### 3. Undoing Mistakes
+
+---
+    At some point in development, you might experience this cycle:
 		1. It works!
 		2. Now I’ll just add the next feature…
 		3. Damn. Now it’s broken.
@@ -329,23 +331,27 @@ At some point in development, you might experience this cycle:
 		○ Revert to previous versions easily.
 		○ Track changes without creating multiple folders.
 		○ Experiment safely using branches.
+---	
 	
-	
-4. Why Text Editor Undo Isn’t Enough
+### 4. Why Text Editor Undo Isn’t Enough
+---
 	• Limitations:
 		1. You often want both old and new versions.
 		2. Undo history is temporary (lost when editor closes).
 		3. Too many changes across files to remember.
 		4. Track changes across multiple files and commits.
 	• Better Solution: VCS keeps all versions permanently.
+	
+	---
 
-
-5. How Does a VCS Help?
+### 5. How Does a VCS Help?
+---
 	• For  every update (commit) , the VCS records:
 		○ What was changed
 		○ Date and time of the change
 		○ The person responsible (important for team projects)
 		○ A description entered by that person
+	---
 	
 	• You can:
 		○ View commit history
@@ -354,7 +360,8 @@ At some point in development, you might experience this cycle:
 	• Workflow: Make changes → Commit with description → Safe to undo anytime. 
 
 
-6. Repositories
+### 6. Repositories
+---
 	Repository (repo): Stores the complete project and all versions
 	 Types of Repositories
 		a. Older VCS – Centralized Repository
@@ -370,33 +377,34 @@ At some point in development, you might experience this cycle:
 			§ People can update the same files at the same time.
 			§ Intelligent algorithms help merge changes together.
 				
-		
+---		
 
-7. Local Repository vs Working Directory
-				
-		Git Gud: The Working Tree, Staging Area, and Local Repo | by Lucas Maurer | Medium
-		Why Most New Developers Get Git Wrong: Understanding the Four Code Stages | Rabin's Blog
+### 7. Local Repository vs Working Directory
+
+				---
+	Git Gud: The Working Tree, Staging Area, and Local Repo | by Lucas Maurer | Medium
+	Why Most New Developers Get Git Wrong: Understanding the Four Code Stages | Rabin's Blog
 		
-			§ Working Directory:
-				□ Stores The version you’re currently working on.
-				□ Usually the latest version (but branches can change this).
-				□ It’s just a normal directory on your computer.
+	 Working Directory:
+		□ Stores The version you’re currently working on
+		□ Usually the latest version (but branches can change this).
+		□ It’s just a normal directory on your computer.
 				
-			§ Local Repository:  
-				□ This folder is your local repository. It stores:
-					® All saved versions of your code (every commit you make).Except any uncommitted changes in the working directory).
-					® Information about branches, tags, and configuration.
-				□ Typically located in a hidden sub-directory inside the working directory:
+		Local Repository:  
+		□ This folder is your local repository. It stores:
+	   ® All saved versions of your code (every commit you make).Except any uncommitted changes in the working directory).
+	   ® Information about branches, tags, and configuration.
+	   □ Typically located in a hidden sub-directory inside the working directory:
 						◊ For Git: .git/  
 						◊ For Mercurial: .hg/
-				□ Uses a VCS-specific format (not directly human-readable).
+			□ Uses a VCS-specific format (not directly human-readable).
 					
 			
-			§ Important Points
-					® Committed changes = Changes you saved using git commit. ✅ stored in the .git folder.
-					® Uncommitted changes = Changes you made but haven’t committed yet. ❌  stored in working directory, not in .git.
+		 important Points
+		® Committed changes = Changes you saved using git commit. ✅ stored in the .git folder. 
+		® Uncommitted changes = Changes you made but haven’t committed yet. ❌  stored in working directory, not in .git.
 			
-			§ What the VCS Does:
+		What the VCS Does:
 				□ Save working directory/ current work  into repo when u commit
 				□ Load any version from repo into working directory.
 		
@@ -411,14 +419,12 @@ At some point in development, you might experience this cycle:
 		
 		
 		✅ Git workflow (Working Directory → Staging → Local Repo → Remote Repo)
-			§ 
-		
-	
-	 
+			
+			 
 		🔁 How Everything Flows (Big Picture)
 		 🟪 1  Working Directory 
 		 🟦2. Index (Staging Area)
- 🟩 3.  Local Repository
+		 🟩 3.  Local Repository
 		 🟨 4.  Remote Repository 📍 GitHub / GitLab / Bitbucket    
 		Remote repo -> Local repo = git fetch
 		Remote repo ->  working  directory = git pull
@@ -454,8 +460,8 @@ At some point in development, you might experience this cycle:
 		
 		✅ Unstage Files Before Commit
 			§ If you accidentally staged a file, you can unstage it: 
-git reset MyCode.java
-git reset
+			 git reset MyCode.java
+			 git reset
 			
 		✅ Fixing Mistakes
 			§ If you mess up a commit, don’t edit the old commit (it’s risky).
@@ -464,9 +470,11 @@ git reset
 		
 		⚠️ Changing already-made commits is possible but not recommended because it can defeat the purpose of version control. In most cases, commits should be considered permanent.
 
+---
 
-8. Branching
+###8. Branching
 
+---
 		Why Do We Use Branches?
 			§ A branch allows working on different versions of a project at the same time.
 			§ Normally, commits usually form a straight line: c1 → c2 → c3 → c4.
@@ -513,9 +521,10 @@ git reset
 			x. Del  from GITHUB REPO /remote: git push origin --delete (branch name) 
 			xi. Delete Branches :  git branch -d mynewbranch. You can delete branches, usually after merging use -D instead of -d forces deletin
 
+---
+### 9.Merging in Git
 
-9.Merging in Git
-
+---
 		1. Why Do We Merge?
 			§ Branching is useful only if branches can be merged later.
 			§ Most development happens in feature branches.
@@ -526,8 +535,8 @@ git reset
 		Switch to the main branch:git checkout main
 		Merge another branch into main:git merge mynewbranch
 		If conflicts were fixed
-		git add conflicted-file.java
-git commit -m "Resolved merge conflict"
+		git add conflicted-file.java 
+		git commit -m "Resolved merge conflict"
 		
 		
 		3. What Happens During a Merge?
@@ -586,8 +595,8 @@ git commit -m "Resolved merge conflict"
 			iii. Decide what to keep / combine
 			iv. Remove conflict markers
 			v. Stage and commit
-		git add Xyz.java
-git commit -m "Merged abc → xyz changes"
+		git add Xyz.java  
+		git commit -m "Merged abc → xyz changes"
 		Helpful Command: git status  Shows files that need attention.
 		
 		🔟 Multiple Repositories in Git
@@ -629,8 +638,7 @@ git commit -m "Merged abc → xyz changes"
 			✅ 4. Check the conflict:git status
 			
 				You’ll see:
-				Unmerged paths:
-  both modified: Maze.py
+				Unmerged paths:   both modified: Maze.py
 			
 			✅ 5. Open Maze.py and scroll to the conflict . Delete the conflict markers and both versions & save 
 			✅ 7. Replace with the correct merged version
@@ -654,26 +662,25 @@ git commit -m "Merged abc → xyz changes"
 			✅ 10. Commit the merge resolution:git commit -m "Resolved merge conflict between if_replace and rename_vars"
 			✅ 11. Confirm everything is merged:git log --branches --graph
 			You’ll see the merge commits and how the branches came together.
-		
 
-✅ Tag 
+		---
 
+
+###  Tag 
+
+---
 	1️⃣ This creates a permanent label so you can refer back to the work later.
-	git tag archive/updating_maze updating_maze
-git tag archive/updating_messages updating_messages
+	git tag archive/updating_maze updating_maze git tag archive/updating_messages updating_messages
 	These tags are just names — archive/ is a naming convention to show they’re archived.
 	
 	2️⃣ run:git tag:
-	archive/updating_maze
-archive/updating_messages
+	archive/updating_maze archive/updating_messages
 	
 	🧠 Why this matters
 		○ Tags preserve the history of your work
 		○ Deleting unused branches keeps your project clean
 		○ This is good Git hygiene — especially for team projects
-![Uploading image.png…]()
-
-
+---
 
 	
 	
