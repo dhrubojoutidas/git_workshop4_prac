@@ -54,6 +54,7 @@ git remote -v
 -  `git merge change_symbols ` # merge another branch
 -  `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
 -   git merge 
+---
 
 ##  7 🔀 Important Concept: Fetch vs Merge 
 
@@ -162,7 +163,6 @@ Continue your workflow:
 ```
 
 
-
 ---
 
 ## 12 🛠️ Git Tips & Tools
@@ -228,6 +228,14 @@ git status
  - `git log ` #  show the commit history for the currently active branch
  - ` git reflog ` List operations (e.g. checkouts or commits) made on local repository
  - `git log --stat -M ` #  show all commit logs with indication of any paths that moved
+ - git log branchB..branchA     show the commits on branchA that are not on branchB
+ - git log --follow [file]    show the commits that changed file, even across renames
+ - git diff branchB..branchA     show the diff of what is in branchA that is not in branchB
+ - git show [SHA]     show any object in Git in human-readable format
+ - $ git log [-n count] List commit history of current branch. -n count limits list to last n commits.
+ -  $ git log --oneline --graph --decorate An overview with reference labels and history graph. One commit per line.
+ -   $ git log ref.. List commits that are present on the current branch and not merged into ref. A ref can be a branch name or a tag name
+ -   git reflog List operations (e.g. checkouts or commits) made on local repository
 
  - 
  -  git stash   Put current changes in your working directory into stash for later use.
