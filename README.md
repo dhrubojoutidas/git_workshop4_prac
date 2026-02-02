@@ -39,11 +39,10 @@ git remote -v
 ```bash
 - git branch -M main means `-m → rename safely` & `-M → rename aggressively (force)
 - `git branch [-a] `
-- `Git  branch [branch-name] ` #create a new branch at the current commit
-- `git checkout [barnch name]`   switch to another branch & check out into ur working director
+- `Git  branch [branch-name] `
+- `git checkout [barnch name]`   
 -` git checkout [-b][branch_name]`
-- `git branch -d [name]`   #Remove selected branch, if it is already merged into any other. -D instead of -d forces deletion
-
+- `git branch -d [name]`   #Remove selected branch, . -D instead of -d forces deletion
 - `git push -u origin main`  | Push + set upstream tracking |First time pushing a branch
 - `git push  origin main` | Push only |After upstream is already set
 
@@ -66,9 +65,8 @@ git remote -v
 
 ---
 
- ## 👥 Setting Up a Central (Remote) Git Repository
+## 👥 Setting Up a Central (Remote) Git Repository
 
-### 🧑‍💻 Option A — Using an Online Git Service (Recommended
 
 <img width="1079" height="701" alt="image" src="https://github.com/user-attachments/assets/2ea00844-1b96-4025-83a3-dad8c884f1ec" />
  
