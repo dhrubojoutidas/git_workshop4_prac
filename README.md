@@ -250,6 +250,7 @@ git status
 		○ Tags preserve the history of your work
 		○ Deleting unused branches keeps your project clean 
 		This is good Git hygiene — especially for team projects
+	1️⃣ This creates a permanent label so you can refer back to the work later.	These tags are just names — archive/ is a naming convention to show they’re archived.
 - 
 
 06 Tagging known commits
@@ -261,13 +262,11 @@ git status
  -git push [--tags] [remote]   Push local changes to the remote. Use --tags to push tags.
 - git tag:  List all tags. #	archive/updating_maze #archive/updating_messages
 
+
 ```
 
 
-	1️⃣ This creates a permanent label so you can refer back to the work later.
 	
-
-	These tags are just names — archive/ is a naming convention to show they’re archived.
 	
 
 
