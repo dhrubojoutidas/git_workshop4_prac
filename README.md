@@ -30,12 +30,23 @@ git status
 
 ## 🔀 5. Rename Branch & Push to GitHub
 ```bash
+
+
+
 - git branch -M main means `-m → rename safely` & `-M → rename aggressively (force)
-- git branch [-a] 
-- Git  branch [branch-name] 
-- git checkout [barnch name]   
-- git checkout [-b][branch_name]
-- git branch -d [name]   #Remove selected branch, . -D instead of -d forces deletion
+-  Create a New Branch : `git branch updating_amze `
+-  Switch to New Branch : ` git checkout branch2 `
+- ` git branch [-a]  `
+-  Create and Switch in One Step: ` git checkout [-b][branch_name] `
+- Merge Branch into Main  : `git merge  mynewbranch `
+- Shows all commits in the current branch’s history: `git log`
+-  List All Branches `git branch`
+-  Display Current Branch Name : `git status `
+-  Rename a Branch :  `git branch -m mynewbranch featurexyz  (Renames mynewbranch to featurexyz.) `
+-  Create a Branch from a Specific Commit:`git branch mynewbranch ff823e `
+-  Del  from GITHUB REPO /remote: `git push origin --delete (branch name) `
+-  Delete Branches : ` git branch -d mynewbranch.` You can delete branches, usually after merging use -D instead of -d forces deletin<
+
 
 
 ```
@@ -226,13 +237,7 @@ Rename file:
  - ` git stash pop `  Apply stored stash content into working directory, and clear stash.
  -  `git stash drop `    discard the changes from top of stash stack
  - git stash apply (useful to know) # Apply the latest stash but keep it in the stash list.
-
 		
-		
-		
-
-
-
 ```
 
 ---
@@ -248,7 +253,7 @@ Rename file:
 06 Tagging known commits
 ```bash 
  - git tag   List all tags.
- - $ git tag [name] [commit sha]   #Create a tag reference named name for current commit. Add commit sha to tag a specific commit instead of current one.
+ - git tag [name] [commit sha]   #Create a tag reference named name for current commit. Add commit sha to tag a specific commit instead of current one.
 - git tag -a [name] [commit sha]   #Create a tag object named name for current commit.
 - git tag -d [name]   #Remove a tag from local repository.
  -git push [--tags] [remote]   Push local changes to the remote. Use --tags to push tags.
