@@ -76,9 +76,9 @@ git remote -v
 ### 🧑‍💻 Developer 1: Clone remote repo, cretae B , commit and push
 
 ```bash
-- : `cd `
+- `cd `
 -` git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2`
-- go into  clone folder :`cd myproject2`
+- `cd myproject2`
 What this does
 			i. Creates a new directory called myproject2
 			ii. Copies the full repository history
@@ -96,15 +96,13 @@ What this does
 
 ### 🧑‍💻 Developer 2: Clone, Fetch & Switch
 ```bash
-- we  will create anew folder here. so that
+-  Clone the GitHub repo into a new folder.This will simulate Developer 2 getting the latest code:
 -` cd ~`
-- Clone the GitHub repo into a new folder.This will simulate Developer 2 getting the latest code:
-`git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git dev_2_project_folder`
+-`git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git dev_2_project_folder`
 - `cd dev_2_project_folder`
 - Fetch updates from GitHub3 remote :`git fetch origin`
 -` git checkout change_symbols`
-- ` git log --oneline`
-✅ Now Developer 2 sees the changes made by Developer 1.
+- ` git log --oneline`  ✅ Now Developer 2 sees the changes made by Developer 1.
 ```
 
 
@@ -112,9 +110,8 @@ What this does
 
 ## 🧹 Ignore Python Cache Files 
 
-in your project folder Create `.gitignore`  to tell Git to ignore these files::
+in your project folder Create  NANO EDITOR `.gitignore`  to tell Git to ignore these files::
 ```
-_
 			# Python cache
 			__pycache__/
 			*.pyc
@@ -126,7 +123,7 @@ _
 
 			# IDE settings
 			.vscode/
-    .idea/
+            .idea/
 ```
 
 Then:
@@ -136,6 +133,11 @@ git commit -m "Added .gitignore to ignore Python cache files"
 ```
 
 ---
+
+
+Create and edit new file: `Nano Viewer.py` 
+`Exit Nano: `Ctrl + X`, then `Y`, then `Enter` for  open `'ctr;+s` 
+To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 
 
 ## ⚙️ Line Ending Settings (Windows vs Linux)
@@ -173,11 +175,6 @@ Continue your workflow:
 - Type the beginning of a command:` git config --`
 - Press Tab → Git shows available options.
 
-## 🧪 Nano Editor & File Splitting
-
-Create and edit new file: `Nano Viewer.py` 
-`Exit Nano: `Ctrl + X`, then `Y`, then `Enter` for  open `'ctr;+s` 
-To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 
 
 Rename file:
