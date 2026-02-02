@@ -112,7 +112,7 @@ What this does
 
 ---
 
-###🧹 Ignore Python Cache Files 
+## 🧹 Ignore Python Cache Files 
 
 in your project folder Create `.gitignore`  to tell Git to ignore these files::
 ```
@@ -142,8 +142,7 @@ git commit -m "Added .gitignore to ignore Python cache files"
 
 ## ⚙️ Line Ending Settings (Windows vs Linux)
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e097fecb-dcc2-40df-af66-32dd19f12628" />
-
-## ✅  Windows-friendly (convert LF to CRLF on checkout).
+### 🧑‍💻 Developer 1: Clone remote repo, cretae B Windows-friendly (convert LF to CRLF on checkout).
 ```bash
 git config --global core.autocrlf true
 
