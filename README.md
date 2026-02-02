@@ -225,6 +225,14 @@ Rename file:
  -  `git stash list `   list stack-order of stashed file changes
  - ` git stash pop `  Apply stored stash content into working directory, and clear stash.
  -  `git stash drop `    discard the changes from top of stash stack
+ - git stash apply (useful to know) # Apply the latest stash but keep it in the stash list.
+
+		
+		
+		
+
+
+
 ```
 
 ---
