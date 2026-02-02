@@ -105,8 +105,8 @@ Clone the GitHub repo into a new folder.This will simulate Developer 2 getting t
 -git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git dev_2_project_folder
 - cd dev_2_project_folder
 - Fetch updates from GitHub3 remote :`git fetch origin
--it checkout change_symbols
-- iGt log --oneline  ✅ Now Developer 2 sees the changes made by Developer 1.
+- git checkout change_symbols
+- git  log --oneline  ✅ Now Developer 2 sees the changes made by Developer 1.
 ```
 ---
 
@@ -234,9 +234,9 @@ git status
  - git log --follow [file]    show the commits that changed file, even across renames
  - git diff branchB..branchA     show the diff of what is in branchA that is not in branchB
  - git show [SHA]     show any object in Git in human-readable format
- - $ git log [-n count] List commit history of current branch. -n count limits list to last n commits.
- -  $ git log --oneline --graph --decorate An overview with reference labels and history graph. One commit per line.
- -   $ git log ref.. List commits that are present on the current branch and not merged into ref. A ref can be a branch name or a tag name
+ - git log [-n count] List commit history of current branch. -n count limits list to last n commits.
+ - git log --oneline --graph --decorate An overview with reference labels and history graph. One commit per line.
+ - git log ref.. List commits that are present on the current branch and not merged into ref. A ref can be a branch name or a tag name
  -   git reflog List operations (e.g. checkouts or commits) made on local repository
 
  - 
