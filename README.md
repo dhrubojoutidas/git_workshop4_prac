@@ -55,7 +55,7 @@ git remote -v
 -  `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
 -   git merge 
 
-## 🔀 Important Concept: Fetch vs Merge 
+##  7 🔀 Important Concept: Fetch vs Merge 
 
 -What git fetch does
   - Downloads updates from the remote
@@ -65,13 +65,13 @@ git remote -v
 
 ---
 
-## 👥 Setting Up a Central (Remote) Git Repository
+## 8 👥 Setting Up a Central (Remote) Git Repository
 
 
 <img width="1079" height="701" alt="image" src="https://github.com/user-attachments/assets/2ea00844-1b96-4025-83a3-dad8c884f1ec" />
  
 
-## 👥 Two-Developer Simulation
+##  👥 Two-Developer Simulation
 
 ### 🧑‍💻 Developer 1: Clone remote repo, cretae B , commit and push
 
@@ -108,7 +108,7 @@ What this does
 
 ---
 
-## 🧹 Ignore Python Cache Files 
+##  10🧹 Ignore Python Cache Files 
 
 in your project folder Create  NANO EDITOR `.gitignore`  to tell Git to ignore these files::
 ```
@@ -140,7 +140,7 @@ Create and edit new file: `Nano Viewer.py`
 To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 
 
-## ⚙️ Line Ending Settings (Windows vs Linux)
+## 11 ⚙️ Line Ending Settings (Windows vs Linux)
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e097fecb-dcc2-40df-af66-32dd19f12628" />
 
 
@@ -165,7 +165,7 @@ Continue your workflow:
 
 ---
 
-## 🛠️ Git Tips & Tools
+## 12 🛠️ Git Tips & Tools
 
 - 📚 View all Git commands: `git help -a`
 - ❓ Help for a command: `git help <command>`
@@ -207,6 +207,8 @@ git commit -m "Renamed GridViewer module to Viewer"
 ### ✅ if you want to fix specific files only/If files were added before setting autocrlfto fix that :
 - `git rm --cached <filename>` # Unstage all files without deleting them
 - `git reset HEAD <filename>` resets the file to the last committed state.
+- `git reset [file] `:unstage a file while retaining the changes in working directorY
+
 
 Then in both cases:
 ```bash
@@ -217,15 +219,22 @@ git status
 
 ---
 
-## verifications 
+## 13 verifications 
  - after you finished editing Maze.py and creating GridViewer.py, but before git add,` git diff --color `
  - ` git log --oneline --graph --decorate`
  - `git log --branches --graph`
  - `git log --oneline --graph --all`
  - `git log  --oneline`
- - `git log `
+ - `git log ` #  show the commit history for the currently active branch
  - ` git reflog ` List operations (e.g. checkouts or commits) made on local repository
  - `git log --stat -M ` #  show all commit logs with indication of any paths that moved
+
+ - 
+ -  git stash   Put current changes in your working directory into stash for later use.
+ -  git stash list    list stack-order of stashed file changes
+ -  git stash pop   Apply stored stash content into working directory, and clear stash.
+ -  git stash drop     discard the changes from top of stash stack
+
 
 
 
