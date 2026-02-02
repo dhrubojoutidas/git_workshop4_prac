@@ -99,8 +99,8 @@ What this does
 ---
 
 ```bash
--  Clone the GitHub repo into a new folder.This will simulate Developer 2 getting the latest code:
--` cd ~`
+Clone the GitHub repo into a new folder.This will simulate Developer 2 getting the latest code:
+- cd 
 -`git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git dev_2_project_folder`
 - `cd dev_2_project_folder`
 - Fetch updates from GitHub3 remote :`git fetch origin`
