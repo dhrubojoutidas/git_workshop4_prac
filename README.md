@@ -38,22 +38,23 @@ git remote -v
 ## 🔀 6. Rename Branch & Push to GitHub
 ```bash
 - git branch -M main means `-m → rename safely` & `-M → rename aggressively (force)
-- `git branch [-a] `
-- `Git  branch [branch-name] `
-- `git checkout [barnch name]`   
--` git checkout [-b][branch_name]`
-- `git branch -d [name]`   #Remove selected branch, . -D instead of -d forces deletion
-- `git push -u origin main`  | Push + set upstream tracking |First time pushing a branch
-- `git push  origin main` | Push only |After upstream is already set
+- git branch [-a] 
+- Git  branch [branch-name] 
+- git checkout [barnch name]   
+- git checkout [-b][branch_name]
+- git branch -d [name]   #Remove selected branch, . -D instead of -d forces deletion
+- git push -u origin main  | Push + set upstream tracking |First time pushing a branch
+- git push  origin main| Push only |After upstream is already set
 
 ```
 
 -  Merge to master and push back to origin :
--  `git checkout master `   # swicth to master
--  `git merge change_symbols ` # merge another branch
-- `git push origin master `  ✔️ The fix is now merged into master and shared with everyone.
-- `git merge`
--   
+```bash
+-  git checkout master    # swicth to master
+-  git merge change_symbols  # merge another branch
+- git push origin master  ✔️ The fix is now merged into master and shared with everyone.
+- git merge
+``` 
 ---
 
 ##  7 🔀 Important Concept: Fetch vs Merge 
@@ -77,9 +78,9 @@ git remote -v
 ### 🧑‍💻 Developer 1: Clone remote repo, cretae B , commit and push
 
 ```bash
-- `cd `
--` git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2`
-- `cd myproject2`
+- cd 
+-git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2
+-Cd myproject2
 What this does
 			i. Creates a new directory called myproject2
 			ii. Copies the full repository history
@@ -87,9 +88,9 @@ What this does
 📌 Note: A bare repository cannot be worked on directly — cloning creates a working copy.	
 - Create and switch to a new branch: `git checkout -b change_symbols`
 - #Edit Maze.py
-- `git add .`
--` git commit -m "Change symbols in text"`
-- push the new B to the remote : `git push -u origin change_symbols`
+- git add .
+-git commit -m "Change symbols in text"
+- push the new B to the remote : `git push -u origin change_symbols
 ✔️ The remote repository now has a new branch created by Developer 1.
 
 ```
@@ -101,11 +102,11 @@ What this does
 ```bash
 Clone the GitHub repo into a new folder.This will simulate Developer 2 getting the latest code:
 - cd 
--`git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git dev_2_project_folder`
-- `cd dev_2_project_folder`
-- Fetch updates from GitHub3 remote :`git fetch origin`
--` git checkout change_symbols`
-- ` git log --oneline`  ✅ Now Developer 2 sees the changes made by Developer 1.
+-git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git dev_2_project_folder
+- cd dev_2_project_folder
+- Fetch updates from GitHub3 remote :`git fetch origin
+-it checkout change_symbols
+- iGt log --oneline  ✅ Now Developer 2 sees the changes made by Developer 1.
 ```
 ---
 
