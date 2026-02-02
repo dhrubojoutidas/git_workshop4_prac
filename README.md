@@ -81,15 +81,15 @@ git status
 ---
 ### 🧑‍💻 Developer 1: Clone remote repo, cretae B , commit and push
 
-
-- `cd `
-- `git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2`
-- `Cd myproject2`
+```bash
+- cd 
+- git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git myproject2
+- Cd myproject2
 - Create and switch to a new branch: `git checkout -b change_symbols`
 - #Edit Maze.py
--` git add .`
--`git commit -m "Change symbols in text"`
-- push the new B to the remote : `git push -u origin change_symbols`
+-git add .
+-git commit -m "Change symbols in text"
+- push the new B to the remote : git push -u origin change_symbols
 ✔️ The remote repository now has a new branch created by Developer 1.
 What this does
 			i. Creates a new directory called myproject2
