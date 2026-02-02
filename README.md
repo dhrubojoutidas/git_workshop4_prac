@@ -144,18 +144,11 @@ git commit -m "Added .gitignore to ignore Python cache files"
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e097fecb-dcc2-40df-af66-32dd19f12628" />
 
 
- ` git config --global core.autocrlf true ` ###  Windows-friendly (convert LF to CRLF on checkout).
-
-```
-##  ✅ Linux/macOS-friendly (keep LF, no conversion on checkout).
+- ` git config --global core.autocrlf true ` # Windows-friendly (convert LF to CRLF on checkout)
+- `git config --global core.autocrlf input ` #✅ Linux/macOS-friendly (keep LF, no conversion on checkout).
+- ` git config --global core.autocrlf false ` # ✅ No conversion at all (you manage line endings manually)
 ```bash
-git config --global core.autocrlf input
 
-```
-
- ###  ✅ No conversion at all (you manage line endings manually)
-```bash
- git config --global core.autocrlf false
 ```
  ### 🔧To stop that warning because it tells Git to automatically handle line endings for Windows:
 -  When you add files: Git converts CRLF → LF internally.
