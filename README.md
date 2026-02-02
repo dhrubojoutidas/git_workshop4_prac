@@ -142,9 +142,9 @@ git commit -m "Added .gitignore to ignore Python cache files"
 
 ## ⚙️ Line Ending Settings (Windows vs Linux)
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e097fecb-dcc2-40df-af66-32dd19f12628" />
-### 🧑‍💻 Developer 1: Clone remote repo, cretae B Windows-friendly (convert LF to CRLF on checkout).
-```bash
-git config --global core.autocrlf true
+
+
+ ` git config --global core.autocrlf true ` ###  Windows-friendly (convert LF to CRLF on checkout).
 
 ```
 ##  ✅ Linux/macOS-friendly (keep LF, no conversion on checkout).
