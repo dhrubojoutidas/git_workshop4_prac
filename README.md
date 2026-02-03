@@ -213,7 +213,6 @@ Rename file:
 ```bash
  - after you finished editing Maze.py and creating GridViewer.py, but before git add,` git diff --color `
  - git log --decorate --graph --all > full_git_history.txt
- - `git log --branches --graph` --all
  - `git log --oneline --graph --all`
  - `git log ` #  show the commit history for the currently active branch
  - `git reflog ` List operations (e.g. checkouts or commits) made on local repository
