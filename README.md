@@ -212,10 +212,8 @@ Rename file:
 ## 13 verifications 
 ```bash
  - after you finished editing Maze.py and creating GridViewer.py, but before git add,` git diff --color `
- - `git log --oneline --graph --decorate`
- - `git log --branches --graph`
+ - `git log --branches --graph` --all
  - `git log --oneline --graph --all`
- - `git log  --oneline`
  - `git log ` #  show the commit history for the currently active branch
  - `git reflog ` List operations (e.g. checkouts or commits) made on local repository
  - `git log --stat -M ` #  show all commit logs with indication of any paths that moved
