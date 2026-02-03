@@ -9,21 +9,21 @@ Set your name and email (used for commits):
 ```bash
 - git config --global user.name "dhrubojoitidas"
 - git config --global user.email "dhrubotroyee20@gmail.com"
-- git config --global color.ui auto ` : Enable some colorization of Git output.
+- git config --global color.ui auto  : Enable some colorization of Git output.
 ```
 ---
 
 ## 📁 3. Create Project Folder & Initialize Git
 ```bash
-`mkdir MazeProject`
-`cd MazeProject`
-`git init`
-` ls -a ` # should show: .  ..  .git
-git status
-`git add Viewer.py Maze.py` / `git add -A GridViewer.py`
-git status
-git commit -m "Initial commit."
-git status
+- mkdir MazeProject
+-cd MazeProject
+- git init
+- ls -a  # should show: .  ..  .git
+- git status
+- git add Viewer.py Maze.py / git add -A GridViewer.py
+- git status
+- git commit -m "Initial commit."
+- git status
 ```
 
 ---
@@ -32,20 +32,18 @@ git status
 ```bash
 
 - git branch -M main means `-m → rename safely` & `-M → rename aggressively (force)
--  Create a New Branch  : git branch updating_amze 
--  Switch to New Branch : ` git checkout branch2 `
-- ` git branch [-a]  `
--  Create and Switch in One Step: ` git checkout [-b][branch_name] `
-- Merge Branch into Main  : `git merge  mynewbranch `
-- Shows all commits in the current branch’s history: `git log`
--  List All Branches `git branch`
--  Display Current Branch Name : `git status `
--  Rename a Branch :  `git branch -m mynewbranch featurexyz  (Renames mynewbranch to featurexyz.) `
--  Create a Branch from a Specific Commit:`git branch mynewbranch ff823e `
--  Del  from GITHUB REPO /remote: `git push origin --delete (branch name) `
--  Delete Branches : ` git branch -d mynewbranch.` You can delete branches, usually after merging use -D instead of -d forces deletin<
-
-
+- Create a New Branch  :`git branch updating_amze 
+- Switch to New Branch : git checkout branch2
+- git branch [-a]
+- Create and Switch in One Step: git checkout [-b][branch_name]
+- Merge Branch into Main  : git merge  mynewbranch 
+- Shows all commits in the current branch’s history: git log
+- List All Branches : git branch
+- Display Current Branch Name : git status
+- Rename a Branch : git branch -m mynewbranch featurexyz  (Renames mynewbranch to featurexyz.)
+- Create a Branch from a Specific Commit:git branch mynewbranch ff823e
+- Del  from GITHUB REPO /remote: git push origin --delete (branch name)
+- Delete Branches : git branch -d mynewbranch. #You can delete branches, usually after merging use -D instead of -d forces deleting
 
 ```
 
@@ -98,7 +96,7 @@ git status
 - #Edit Maze.py
 -git add .
 -git commit -m "Change symbols in text"
-- push the new B to the remote : git push -u origin change_symbols
+-push the new B to the remote : git push -u origin change_symbols
 
 What this does
 			i. Creates a new directory called myproject2
@@ -117,10 +115,10 @@ What this does
 Clone the GitHub repo into a new folder.This will simulate Developer 2 getting the latest code:
 - cd 
 -git clone https://github.com/dhrubojoutidas/git_workshop4_prac.git dev_2_project_folder
-- cd dev_2_project_folder
-- Fetch updates from GitHub3 remote :`git fetch origin
-- git checkout change_symbols
-- git  log --oneline  ✅ Now Developer 2 sees the changes made by Developer 1.
+-cd dev_2_project_folder
+-Fetch updates from GitHub3 remote :`git fetch origin
+-git checkout change_symbols
+-git  log --oneline  ✅ Now Developer 2 sees the changes made by Developer 1.
 ```
 ---
 
@@ -188,13 +186,12 @@ Rename file:
 - `git mv GridViewer.py Viewer.py ` if you want Git to track the rename automatically
 - ` git add Maze.py Viewer.py & git commit -m "Renamed GridViewer module to Viewer" `
 
-```
-  
-- Remove an EMPTY directory  :`rmdir <directory_name>`
-- Remove a directory WITH files):`rm -r <dir_name> `⚠ Warning: This permanently deletes files.
-- `git rm [file]`   #  delete the file from project and stage the removal for commit
--  `winpty python Maze.py` to run on git bash &` python Maze.py` for VSCODE
-- `git rebase [branch]  `  apply any commits of current branch ahead of specified one
+
+- Remove an EMPTY directory  : `rmdir <directory_name>`
+- Remove a directory WITH files):`rm -r <dir_name>` ⚠ Warning: This permanently deletes files.
+-`git rm [file] ` #  delete the file from project and stage the removal for commit
+- `winpty python Maze.py` to run on git bash &` python Maze.py` for VSCODE
+- `git rebase [branch]  ` apply any commits of current branch ahead of specified one
 - `git revert [commit sha]` Create a new commit, reverting changes from specified commit. 
 
 ---
@@ -215,12 +212,12 @@ Rename file:
 ## 13 verifications 
 ```bash
  - after you finished editing Maze.py and creating GridViewer.py, but before git add,` git diff --color `
- - ` git log --oneline --graph --decorate`
+ - `git log --oneline --graph --decorate`
  - `git log --branches --graph`
  - `git log --oneline --graph --all`
  - `git log  --oneline`
  - `git log ` #  show the commit history for the currently active branch
- - ` git reflog ` List operations (e.g. checkouts or commits) made on local repository
+ - `git reflog ` List operations (e.g. checkouts or commits) made on local repository
  - `git log --stat -M ` #  show all commit logs with indication of any paths that moved
  - `git log branchB..branchA  `   show the commits on branchA that are not on branchB
  -` git log --follow [file] `   show the commits that changed file, even across renames
@@ -230,11 +227,11 @@ Rename file:
  - `git log --oneline --graph --decorate` An overview with reference labels and history graph. One commit per line.
  - `git log ref..` List commits  present on  current branch & not merged into ref. A ref can be a branch name or a tag 
  - `git reflog `List operations (e.g. checkouts or commits) made on local repository
- - ` git stash `  Put current changes in your working directory into stash for later use.
- -  `git stash list `   list stack-order of stashed file changes
- - ` git stash pop `  Apply stored stash content into working directory, and clear stash.
- -  `git stash drop `    discard the changes from top of stash stack
- - git stash apply (useful to know) # Apply the latest stash but keep it in the stash list.
+ - `git stash `  Put current changes in your working directory into stash for later use.
+ - `git stash list `   list stack-order of stashed file changes
+ - `git stash pop `  Apply stored stash content into working directory, and clear stash.
+ - `git stash drop `    discard the changes from top of stash stack
+ - `git stash apply (useful to know)` # Apply the latest stash but keep it in the stash list.
 		
 ```
 
@@ -250,14 +247,14 @@ Rename file:
 
 06 Tagging known commits
 ```bash 
- - git tag   List all tags.
- - git tag [name] [commit sha]   #Create a tag reference named name for current commit. Add commit sha to tag a specific commit instead of current one.
-- git tag -a [name] [commit sha]   #Create a tag object named name for current commit.
-- git tag -d [name]   #Remove a tag from local repository.
- -git push [--tags] [remote]   Push local changes to the remote. Use --tags to push tags.
-- git tag:  List all tags. #	archive/updating_maze #archive/updating_messages
+ - `git tag  ` List all tags.
+ -` git tag [name] [commit sha]`   #Create a tag reference named name for current commit. Add commit sha to tag a specific commit instead of current one.
+- `git tag -a [name] [commit sha] `  #Create a tag object named name for current commit.
+- `git tag -d [name]  ` #Remove a tag from local repository.
+- `git push [--tags] [remote]`   Push local changes to the remote. Use --tags to push tags.
+- `git tag:  List all tags` #	archive/updating_maze #archive/updating_messages
 - `git diff` :diff of what is changed but not staged
--  `git diff --staged` :diff of what is staged but not yet committed
+- `git diff --staged` :diff of what is staged but not yet committed
 
 ```
 
