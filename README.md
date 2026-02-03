@@ -181,6 +181,18 @@ To quit Vim:` press Esc`, then type `:wq `and hit` Enter`
 
 
 ---
+
+## 13 how to uplaod file from PC to github
+```bash
+- git clone https://github.com/dhrubojoutidas/pro1.git
+- cd pro1
+- move  things  to the specefic folder
+- git add .
+- git commit -m "Add Embedded Systems folders (SPI, UART, etc.)"
+- git push origin master
+```
+---
+
 Rename file:
 - `mv GridViewer.py Viewer.py`  in terminal
 - `git mv GridViewer.py Viewer.py ` if you want Git to track the rename automatically
