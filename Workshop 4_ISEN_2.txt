@@ -1,0 +1,106 @@
+dhrub@Troyee MINGW64 ~/Desktop/myproject (change_symbols)
+$ git log  --branches --graph
+* commit 25d75f52cc79596513cc4af5442a28ece07b18b6 (HEAD -> change_symbols)
+| Author: 90028995 <90028995@study.curtincollege.edu.au>
+| Date:   Fri Jul 14 21:46:03 2023 +0800
+|
+|      finally merged change_symbols
+|
+* commit d2e5981ac0713f6f137a8f136ac7f7d6d1c4c229 (origin/change_symbols)
+| Author: 90028995 <90028995@study.curtincollege.edu.au>
+| Date:   Fri Jul 14 20:55:22 2023 +0800
+|
+|     myproject2 added
+|
+* commit 0e9bcfde11248e6019743e262e146a750dcf25e2
+| Author: 90028995 <90028995@study.curtincollege.edu.au>
+| Date:   Fri Jul 14 20:20:10 2023 +0800
+|
+|     symbols change in Viewer.py
+|
+| * commit b559e27d0e2d35bff00bf383f7d00fa9db1c629d (if_replace)
+| | Author: 90028995 <90028995@study.curtincollege.edu.au>
+| | Date:   Fri Jul 14 20:06:27 2023 +0800
+| |
+| |     changing branch
+| |
+| *   commit c82ac4e78b5c48a7abd69f7b29e579b402dde244
+| |\  Merge: b2fc8e5 6f51d9d
+| | | Author: 90028995 <90028995@study.curtincollege.edu.au>
+| | | Date:   Fri Jul 14 19:35:48 2023 +0800
+| | |
+| | |     merged done between if_replace & rename_vars
+| | |
+| | * commit 6f51d9dfcc5e9911d0d1c9b4a1e651f2bda7d375 (origin/rename_vars, rename_vars)
+| |/  Author: 90028995 <90028995@study.curtincollege.edu.au>
+|/|   Date:   Fri Jul 14 18:04:05 2023 +0800
+| |
+| |        rename_vars with maze.py is done
+| |
+| * commit b2fc8e5e4c0e2a4bbdb9f155544b82efc518d0c4
+| | Author: 90028995 <90028995@study.curtincollege.edu.au>
+| | Date:   Fri Jul 14 18:29:06 2023 +0800
+| |
+| |     if_replace done
+| |
+| * commit 32e318656f9e93ff92712c0260acb891fcd2ec68
+|/  Author: 90028995 <90028995@study.curtincollege.edu.au>
+|   Date:   Fri Jul 14 17:54:28 2023 +0800
+|
+|       if_replace with maze.py
+|
+*   commit 438c2e14b91464feca6739d80241a03f433cd9d6 (tag: updating_messages, tag: updating_maze, master)
+|\  Merge: 35857a7 b2651a1
+| | Author: 90028995 <90028995@study.curtincollege.edu.au>
+| | Date:   Fri Jul 14 16:49:27 2023 +0800
+| |
+| |     Merge branch 'updating_maze'
+| |
+| * commit b2651a17fad24e1e38a211a04b18c61c413e8a20
+| | Author: 90028995 <90028995@study.curtincollege.edu.au>
+| | Date:   Fri Jul 14 16:24:24 2023 +0800
+| |
+| |      updating_maze 2nd time edit done
+| |
+| * commit b14bec2287a6261884000b0a48848ad4076f1c39
+| | Author: 90028995 <90028995@study.curtincollege.edu.au>
+| | Date:   Fri Jul 14 16:22:03 2023 +0800
+| |
+| |      updating_maze 1st edit done
+| |
+* | commit 35857a7fb6c7488b2527ef636002d2bc87b52447
+| | Author: 90028995 <90028995@study.curtincollege.edu.au>
+| | Date:   Fri Jul 14 16:33:56 2023 +0800
+| |
+| |      updating_messages from 4 to 5 done
+| |
+* | commit f53ccbd2daf0c0f5bd1ef4fc6215f2de1c5e8327
+|/  Author: 90028995 <90028995@study.curtincollege.edu.au>
+|   Date:   Fri Jul 14 16:31:34 2023 +0800
+|
+|        updating_messages from 1-3
+|
+* commit 84cf784e535d640c0e9d07960d83fa9578d88159
+| Author: 90028995 <90028995@study.curtincollege.edu.au>
+| Date:   Fri Jul 14 15:54:32 2023 +0800
+|
+|     Uppated module name
+|
+* commit 94e3f8a587f53660128e2f8eacbfb837e1f36fdd
+| Author: 90028995 <90028995@study.curtincollege.edu.au>
+| Date:   Fri Jul 14 15:39:30 2023 +0800
+|
+|      seperated file
+|
+* commit 5626a6b323450f8390baa5583d49e654c25384d6
+| Author: 90028995 <90028995@study.curtincollege.edu.au>
+| Date:   Fri Jul 14 15:35:23 2023 +0800
+|
+|      split Maze.py into 2 seperate files.
+|
+* commit 1e25eefeac09689c3e32e9986e7e2ec1d0fdd3b8
+  Author: 90028995 <90028995@study.curtincollege.edu.au>
+  Date:   Fri Jul 14 14:42:34 2023 +0800
+
+      initial commit
+(END)
