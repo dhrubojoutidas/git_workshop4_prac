@@ -7,9 +7,9 @@
 ## 🧑‍💻 2. Configure Git Identity
 Set your name and email (used for commits):
 ```bash
--  `git config --global user.name "dhrubojoitidas"`
-- `git config --global user.email "dhrubotroyee20@gmail.com"`
-- `git config --global color.ui auto ` : Enable some colorization of Git output.
+- git config --global user.name "dhrubojoitidas"
+- git config --global user.email "dhrubotroyee20@gmail.com"
+- git config --global color.ui auto ` : Enable some colorization of Git output.
 ```
 ---
 
