@@ -269,6 +269,10 @@ Rename file:
 ```
 
 
+- [hardware_Notes]()
+- [Embedded& MicroComputer_Notes]()
+
+
 
 
 
