@@ -269,10 +269,8 @@ Rename file:
 ```
 
 
-- [hardware_Notes]()
-- [Embedded& MicroComputer_Notes]()
-
-
+- [hardware_Notes](html.svg)
+- [Embedded& MicroComputer_Notes](embeded&Micro.eml)
 
 
 
